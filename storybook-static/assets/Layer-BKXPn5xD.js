@@ -1,1 +1,0 @@
-import{r as e}from"./iframe-DaCZzlB4.js";import{c as p,s as l}from"./resolveDefaultProps-CDCOnC3u.js";const s=e.forwardRef((r,a)=>{const{children:t,className:o,...c}=r,n=p("recharts-layer",o);return e.createElement("g",{className:n,...l(c),ref:a},t)});try{s.displayName="Layer",s.__docgenInfo={description:"",displayName:"Layer",props:{}}}catch{}export{s as L};
