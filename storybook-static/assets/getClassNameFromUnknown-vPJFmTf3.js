@@ -1,0 +1,1 @@
+function r(e){return e&&typeof e=="object"&&"className"in e&&typeof e.className=="string"?e.className:""}try{r.displayName="getClassNameFromUnknown",r.__docgenInfo={description:"",displayName:"getClassNameFromUnknown",filePath:"/home/runner/work/recharts/recharts/src/util/getClassNameFromUnknown.tsx",methods:[],props:{},tags:{}}}catch{}export{r as g};
