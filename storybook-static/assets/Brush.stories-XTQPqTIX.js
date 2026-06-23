@@ -1,0 +1,81 @@
+import{R as e}from"./iframe-DGZg1BaY.js";import{g as c}from"./utils-ePvtT4un.js";import{B as n}from"./Brush-Yz0MZQ9v.js";import{R as u}from"./zIndexSlice-RSobkBfJ.js";import{C as r}from"./ComposedChart-CYWMV96h.js";import{p as a}from"./Page-Cj8EiXz7.js";import{L as y}from"./Line-BjwcwMYh.js";import{A as g}from"./Area-CGiiw1Iu.js";import{B as f}from"./Bar-D63UQKwZ.js";import{T as V}from"./Tooltip-Zz8cIuvo.js";import{S as b}from"./ScatterChart-r1LHitse.js";import{S as v}from"./Scatter-D3q9zRD3.js";const o={alwaysShowText:{control:{type:"boolean"},table:{type:{summary:"boolean"},category:"General",defaultValue:{summary:"false"}},defaultValue:!1},ariaLabel:{control:{type:"text"},table:{type:{summary:"string"},category:"General"}},children:{table:{type:{summary:"ReactNode"},category:"General"}},className:{control:{type:"text"},table:{type:{summary:"string"},category:"Style"}},dataKey:{description:"The data that you provide via the `data` prop is an array of objects.\nEach object can have multiple properties, each representing a different data dimension.\nUse the `dataKey` prop to specify which property (or dimension) to use for this component.\n\nTypically, you will want to have one dataKey on the X axis, and different dataKey on the Y axis,\nwhere they extract different values from the same data objects.\n\nDecides how to extract the value from the data:\n- `string`: the name of the field in the data object;\n- `number`: the index of the field in the data;\n- `function`: a function that receives the data object and returns the value.",table:{type:{summary:"TypedDataKey<DataPointType, DataValueType>"},category:"General"}},dy:{table:{type:{summary:"number | string"},category:"General"}},endIndex:{description:`The default end index of brush.
+If the option is not set, the end index will be calculated by the length of data.`,control:{type:"number"},table:{type:{summary:"number"},category:"General"}},gap:{description:"Number of data points to skip between chart refreshes.",control:{type:"number"},table:{type:{summary:"number"},category:"General",defaultValue:{summary:"1"}},defaultValue:1},height:{description:"Height of the brush in pixels.",table:{type:{summary:"number | string"},category:"General",defaultValue:{summary:"40"}},defaultValue:40},leaveTimeOut:{control:{type:"number"},table:{type:{summary:"number"},category:"General",defaultValue:{summary:"1000"}},defaultValue:1e3},onChange:{description:"The handler of changing the active scope of brush.",table:{type:{summary:"OnBrushUpdate"},category:"Events"}},onDragEnd:{table:{type:{summary:"OnBrushUpdate"},category:"Events"}},padding:{table:{type:{summary:"Padding"},category:"General",defaultValue:{summary:'{"top":1,"right":1,"bottom":1,"left":1}'}},defaultValue:{top:1,right:1,bottom:1,left:1}},startIndex:{description:`The default start index of brush.
+If the option is not set, the start index will be 0.`,control:{type:"number"},table:{type:{summary:"number"},category:"General"}},tickFormatter:{description:"The formatter function of ticks.",table:{type:{summary:"BrushTickFormatter"},category:"General"}},traveller:{table:{type:{summary:"Function | ReactNode"},category:"General"}},travellerWidth:{description:"The width of each traveller.",control:{type:"number"},table:{type:{summary:"number"},category:"General",defaultValue:{summary:"5"}},defaultValue:5},width:{description:`Width of the brush in pixels.
+If undefined, defaults to the chart width.`,table:{type:{summary:"number | string"},category:"General"}},x:{description:`The x-coordinate of brush.
+If left undefined, it will be computed from the chart's offset and margins.`,table:{type:{summary:"number | string"},category:"General"}},y:{description:`The y-coordinate of brush.
+If left undefined, it will be computed from the chart's offset and margins.`,table:{type:{summary:"number | string"},category:"General"}}},{fireEvent:h,within:_,expect:L}=__STORYBOOK_MODULE_TEST__,W={component:n,argTypes:o},s={render:t=>e.createElement(u,{width:"100%",height:400},e.createElement(r,{data:a},e.createElement(y,{dataKey:"uv"}),e.createElement(n,{...t}))),args:c(o),play:async({canvasElement:t})=>{const p=(await _(t).findAllByRole("slider"))[0];L(p).toBeTruthy(),h.mouseDown(p),h.mouseMove(p,{clientX:200}),h.mouseUp(p)}},i={render:t=>e.createElement(u,{width:"100%",height:400},e.createElement(r,{data:a},e.createElement(y,{dataKey:"uv"}),e.createElement(V,null),e.createElement(n,{...t},e.createElement(r,{data:a},e.createElement(y,{dataKey:"uv"}))))),args:c(o)},m={render:t=>e.createElement(u,{width:"100%",height:400},e.createElement(r,{data:a},e.createElement(g,{dataKey:"uv"}),e.createElement(n,{...t},e.createElement(r,{data:a},e.createElement(g,{dataKey:"uv"}))))),args:c(o)},d={render:t=>e.createElement(u,{width:"100%",height:400},e.createElement(r,{data:a},e.createElement(f,{dataKey:"uv"}),e.createElement(n,{...t},e.createElement(r,{data:a},e.createElement(f,{dataKey:"uv"}))))),args:c(o)},l={render:t=>e.createElement(u,{width:"100%",height:400},e.createElement(b,{data:a},e.createElement(v,{dataKey:"uv"}),e.createElement(n,{...t},e.createElement(b,{data:a},e.createElement(v,{dataKey:"uv"}))))),args:c(o)};var C,E,S;s.parameters={...s.parameters,docs:{...(C=s.parameters)==null?void 0:C.docs,source:{originalSource:`{
+  render: (args: Args) => <ResponsiveContainer width="100%" height={400}>
+      <ComposedChart data={pageData}>
+        <Line dataKey="uv" />
+        <Brush {...args} />
+      </ComposedChart>
+    </ResponsiveContainer>,
+  args: getStoryArgsFromArgsTypesObject(BrushArgs),
+  play: async ({
+    canvasElement
+  }: {
+    canvasElement: HTMLElement;
+  }) => {
+    const canvas = within(canvasElement);
+    const slider = await canvas.findAllByRole('slider');
+    const leftSlider = slider[0];
+    expect(leftSlider).toBeTruthy();
+    fireEvent.mouseDown(leftSlider);
+    fireEvent.mouseMove(leftSlider, {
+      clientX: 200
+    });
+    fireEvent.mouseUp(leftSlider);
+  }
+}`,...(S=(E=s.parameters)==null?void 0:E.docs)==null?void 0:S.source}}};var A,B,T;i.parameters={...i.parameters,docs:{...(A=i.parameters)==null?void 0:A.docs,source:{originalSource:`{
+  render: (args: Args) => <ResponsiveContainer width="100%" height={400}>
+      <ComposedChart data={pageData}>
+        <Line dataKey="uv" />
+        <Tooltip />
+        <Brush {...args}>
+          <ComposedChart data={pageData}>
+            <Line dataKey="uv" />
+          </ComposedChart>
+        </Brush>
+      </ComposedChart>
+    </ResponsiveContainer>,
+  args: getStoryArgsFromArgsTypesObject(BrushArgs)
+}`,...(T=(B=i.parameters)==null?void 0:B.docs)==null?void 0:T.source}}};var w,K,x;m.parameters={...m.parameters,docs:{...(w=m.parameters)==null?void 0:w.docs,source:{originalSource:`{
+  render: (args: Args) => <ResponsiveContainer width="100%" height={400}>
+      <ComposedChart data={pageData}>
+        <Area dataKey="uv" />
+
+        <Brush {...args}>
+          <ComposedChart data={pageData}>
+            <Area dataKey="uv" />
+          </ComposedChart>
+        </Brush>
+      </ComposedChart>
+    </ResponsiveContainer>,
+  args: getStoryArgsFromArgsTypesObject(BrushArgs)
+}`,...(x=(K=m.parameters)==null?void 0:K.docs)==null?void 0:x.source}}};var R,D,G;d.parameters={...d.parameters,docs:{...(R=d.parameters)==null?void 0:R.docs,source:{originalSource:`{
+  render: (args: Args) => <ResponsiveContainer width="100%" height={400}>
+      <ComposedChart data={pageData}>
+        <Bar dataKey="uv" />
+
+        <Brush {...args}>
+          <ComposedChart data={pageData}>
+            <Bar dataKey="uv" />
+          </ComposedChart>
+        </Brush>
+      </ComposedChart>
+    </ResponsiveContainer>,
+  args: getStoryArgsFromArgsTypesObject(BrushArgs)
+}`,...(G=(D=d.parameters)==null?void 0:D.docs)==null?void 0:G.source}}};var O,j,P;l.parameters={...l.parameters,docs:{...(O=l.parameters)==null?void 0:O.docs,source:{originalSource:`{
+  render: (args: Args) => <ResponsiveContainer width="100%" height={400}>
+      <ScatterChart data={pageData}>
+        <Scatter dataKey="uv" />
+
+        <Brush {...args}>
+          <ScatterChart data={pageData}>
+            <Scatter dataKey="uv" />
+          </ScatterChart>
+        </Brush>
+      </ScatterChart>
+    </ResponsiveContainer>,
+  args: getStoryArgsFromArgsTypesObject(BrushArgs)
+}`,...(P=(j=l.parameters)==null?void 0:j.docs)==null?void 0:P.source}}};const F=["API","PanoramaWithLine","PanoramaWithArea","PanoramaWithBar","PanoramaWithScatter"],ee=Object.freeze(Object.defineProperty({__proto__:null,API:s,PanoramaWithArea:m,PanoramaWithBar:d,PanoramaWithLine:i,PanoramaWithScatter:l,__namedExportsOrder:F,default:W},Symbol.toStringTag,{value:"Module"}));export{s as A,ee as C};
