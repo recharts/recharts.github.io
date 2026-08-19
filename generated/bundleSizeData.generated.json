@@ -1,70 +1,70 @@
 {
   "treemap": {
     "examplePath": "www/src/views/IndexView/IndexLineChart.tsx",
-    "totalSize": 890679,
-    "totalSizeLabel": "869.80 KB",
-    "moduleCount": 365,
-    "generatedAt": "2026-07-25T15:26:06.197Z",
+    "totalSize": 902693,
+    "totalSizeLabel": "881.54 KB",
+    "moduleCount": 366,
+    "generatedAt": "2026-08-19T07:37:02.260Z",
     "stages": [
       {
         "stage": "es6-folder",
-        "bytes": 1293595,
-        "humanReadableSize": "1.23 MB",
+        "bytes": 1354333,
+        "humanReadableSize": "1.29 MB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "tree-shaken",
-        "bytes": 893556,
-        "humanReadableSize": "872.61 KB",
+        "bytes": 905572,
+        "humanReadableSize": "884.35 KB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "minified",
-        "bytes": 300837,
-        "humanReadableSize": "293.79 KB",
-        "reductionFromBaselinePercent": 66.33
+        "bytes": 303293,
+        "humanReadableSize": "296.18 KB",
+        "reductionFromBaselinePercent": 66.51
       },
       {
         "stage": "minified+gzip",
-        "bytes": 98267,
-        "humanReadableSize": "95.96 KB",
-        "reductionFromBaselinePercent": 89
+        "bytes": 99252,
+        "humanReadableSize": "96.93 KB",
+        "reductionFromBaselinePercent": 89.04
       }
     ],
     "tree": {
       "name": "bundle",
       "fullPath": "bundle",
-      "value": 890679,
+      "value": 902693,
       "children": [
         {
           "name": "src",
           "fullPath": "src",
-          "value": 486844,
+          "value": 498665,
           "children": [
             {
               "name": "state",
               "fullPath": "src/state",
-              "value": 172217,
+              "value": 173244,
               "children": [
                 {
                   "name": "selectors",
                   "fullPath": "src/state/selectors",
-                  "value": 108306,
+                  "value": 108371,
                   "children": [
                     {
                       "name": "axisSelectors.ts",
                       "fullPath": "src/state/selectors/axisSelectors.ts",
-                      "value": 53636
+                      "value": 53630
                     },
                     {
                       "name": "combiners",
                       "fullPath": "src/state/selectors/combiners",
-                      "value": 19713,
+                      "value": 19758,
                       "children": [
                         {
                           "name": "combineTooltipPayload.ts",
                           "fullPath": "src/state/selectors/combiners/combineTooltipPayload.ts",
-                          "value": 6609
+                          "value": 6654
                         },
                         {
                           "name": "combineActiveTooltipIndex.ts",
@@ -126,7 +126,7 @@
                     {
                       "name": "tooltipSelectors.ts",
                       "fullPath": "src/state/selectors/tooltipSelectors.ts",
-                      "value": 11302
+                      "value": 11328
                     },
                     {
                       "name": "polarAxisSelectors.ts",
@@ -296,6 +296,11 @@
                   "value": 2685
                 },
                 {
+                  "name": "chartDataSlice.ts",
+                  "fullPath": "src/state/chartDataSlice.ts",
+                  "value": 2557
+                },
+                {
                   "name": "graphicalItemsSlice.ts",
                   "fullPath": "src/state/graphicalItemsSlice.ts",
                   "value": 2231
@@ -304,11 +309,6 @@
                   "name": "legendSlice.ts",
                   "fullPath": "src/state/legendSlice.ts",
                   "value": 2129
-                },
-                {
-                  "name": "chartDataSlice.ts",
-                  "fullPath": "src/state/chartDataSlice.ts",
-                  "value": 1813
                 },
                 {
                   "name": "RechartsStoreProvider.tsx",
@@ -381,6 +381,18 @@
                   "value": 691
                 },
                 {
+                  "name": "types",
+                  "fullPath": "src/state/types",
+                  "value": 665,
+                  "children": [
+                    {
+                      "name": "StackedGraphicalItem.ts",
+                      "fullPath": "src/state/types/StackedGraphicalItem.ts",
+                      "value": 665
+                    }
+                  ]
+                },
+                {
                   "name": "polarAxisSlice.ts",
                   "fullPath": "src/state/polarAxisSlice.ts",
                   "value": 633
@@ -394,18 +406,6 @@
                   "name": "polarOptionsSlice.ts",
                   "fullPath": "src/state/polarOptionsSlice.ts",
                   "value": 592
-                },
-                {
-                  "name": "types",
-                  "fullPath": "src/state/types",
-                  "value": 447,
-                  "children": [
-                    {
-                      "name": "StackedGraphicalItem.ts",
-                      "fullPath": "src/state/types/StackedGraphicalItem.ts",
-                      "value": 447
-                    }
-                  ]
                 },
                 {
                   "name": "reduxDevtoolsJsonStringifyReplacer.ts",
@@ -427,17 +427,17 @@
             {
               "name": "util",
               "fullPath": "src/util",
-              "value": 105996,
+              "value": 107880,
               "children": [
                 {
                   "name": "scale",
                   "fullPath": "src/util/scale",
-                  "value": 15313,
+                  "value": 15741,
                   "children": [
                     {
                       "name": "getNiceTickValues.ts",
                       "fullPath": "src/util/scale/getNiceTickValues.ts",
-                      "value": 10336
+                      "value": 10764
                     },
                     {
                       "name": "createCategoricalInverse.ts",
@@ -484,24 +484,24 @@
                   "value": 5637
                 },
                 {
+                  "name": "ReduceCSSCalc.ts",
+                  "fullPath": "src/util/ReduceCSSCalc.ts",
+                  "value": 5145
+                },
+                {
                   "name": "DataUtils.ts",
                   "fullPath": "src/util/DataUtils.ts",
                   "value": 5015
                 },
                 {
+                  "name": "resolveDefaultProps.tsx",
+                  "fullPath": "src/util/resolveDefaultProps.tsx",
+                  "value": 4469
+                },
+                {
                   "name": "getRelativeCoordinate.ts",
                   "fullPath": "src/util/getRelativeCoordinate.ts",
                   "value": 4292
-                },
-                {
-                  "name": "ReduceCSSCalc.ts",
-                  "fullPath": "src/util/ReduceCSSCalc.ts",
-                  "value": 4223
-                },
-                {
-                  "name": "resolveDefaultProps.tsx",
-                  "fullPath": "src/util/resolveDefaultProps.tsx",
-                  "value": 3871
                 },
                 {
                   "name": "types.ts",
@@ -663,11 +663,6 @@
                   "value": 258
                 },
                 {
-                  "name": "getSliced.ts",
-                  "fullPath": "src/util/getSliced.ts",
-                  "value": 208
-                },
-                {
                   "name": "getClassNameFromUnknown.tsx",
                   "fullPath": "src/util/getClassNameFromUnknown.tsx",
                   "value": 171
@@ -683,6 +678,11 @@
                   "value": 149
                 },
                 {
+                  "name": "getSliced.ts",
+                  "fullPath": "src/util/getSliced.ts",
+                  "value": 144
+                },
+                {
                   "name": "ReactUtils.ts",
                   "fullPath": "src/util/ReactUtils.ts",
                   "value": 141
@@ -692,32 +692,32 @@
             {
               "name": "cartesian",
               "fullPath": "src/cartesian",
-              "value": 80766,
+              "value": 83197,
               "children": [
                 {
                   "name": "Line.tsx",
                   "fullPath": "src/cartesian/Line.tsx",
-                  "value": 14832
+                  "value": 16086
                 },
                 {
                   "name": "CartesianAxis.tsx",
                   "fullPath": "src/cartesian/CartesianAxis.tsx",
-                  "value": 14375
+                  "value": 15268
                 },
                 {
                   "name": "CartesianGrid.tsx",
                   "fullPath": "src/cartesian/CartesianGrid.tsx",
-                  "value": 11723
+                  "value": 11470
+                },
+                {
+                  "name": "YAxis.tsx",
+                  "fullPath": "src/cartesian/YAxis.tsx",
+                  "value": 6858
                 },
                 {
                   "name": "getCartesianPosition.tsx",
                   "fullPath": "src/cartesian/getCartesianPosition.tsx",
                   "value": 6776
-                },
-                {
-                  "name": "YAxis.tsx",
-                  "fullPath": "src/cartesian/YAxis.tsx",
-                  "value": 6321
                 },
                 {
                   "name": "XAxis.tsx",
@@ -764,27 +764,27 @@
             {
               "name": "component",
               "fullPath": "src/component",
-              "value": 37825,
+              "value": 40074,
               "children": [
                 {
                   "name": "Label.tsx",
                   "fullPath": "src/component/Label.tsx",
-                  "value": 10622
+                  "value": 11193
                 },
                 {
                   "name": "Legend.tsx",
                   "fullPath": "src/component/Legend.tsx",
-                  "value": 7854
+                  "value": 8338
                 },
                 {
                   "name": "Text.tsx",
                   "fullPath": "src/component/Text.tsx",
-                  "value": 7597
+                  "value": 8302
                 },
                 {
                   "name": "DefaultLegendContent.tsx",
                   "fullPath": "src/component/DefaultLegendContent.tsx",
-                  "value": 4696
+                  "value": 5185
                 },
                 {
                   "name": "LabelList.tsx",
@@ -895,7 +895,7 @@
             {
               "name": "zIndex",
               "fullPath": "src/zIndex",
-              "value": 9406,
+              "value": 9452,
               "children": [
                 {
                   "name": "ZIndexLayer.tsx",
@@ -905,7 +905,7 @@
                 {
                   "name": "DefaultZIndexes.tsx",
                   "fullPath": "src/zIndex/DefaultZIndexes.tsx",
-                  "value": 2271
+                  "value": 2317
                 },
                 {
                   "name": "ZIndexPortal.tsx",
@@ -1033,26 +1033,31 @@
               ]
             },
             {
-              "name": "hooks.ts",
-              "fullPath": "src/hooks.ts",
-              "value": 1813
-            },
-            {
               "name": "theme",
               "fullPath": "src/theme",
-              "value": 718,
+              "value": 4902,
               "children": [
                 {
-                  "name": "legacyTheme.ts",
-                  "fullPath": "src/theme/legacyTheme.ts",
-                  "value": 371
+                  "name": "graphicalItemIdentity.ts",
+                  "fullPath": "src/theme/graphicalItemIdentity.ts",
+                  "value": 2534
+                },
+                {
+                  "name": "useBackwardsCompatibleTheme.ts",
+                  "fullPath": "src/theme/useBackwardsCompatibleTheme.ts",
+                  "value": 1863
                 },
                 {
                   "name": "RechartsThemeContext.ts",
                   "fullPath": "src/theme/RechartsThemeContext.ts",
-                  "value": 347
+                  "value": 505
                 }
               ]
+            },
+            {
+              "name": "hooks.ts",
+              "fullPath": "src/hooks.ts",
+              "value": 1813
             },
             {
               "name": "polar",
@@ -1076,7 +1081,7 @@
         {
           "name": "node_modules",
           "fullPath": "node_modules",
-          "value": 402154,
+          "value": 402421,
           "children": [
             {
               "name": "@reduxjs",
@@ -1133,27 +1138,27 @@
             {
               "name": "es-toolkit",
               "fullPath": "node_modules/es-toolkit",
-              "value": 61019,
+              "value": 61286,
               "children": [
                 {
                   "name": "dist",
                   "fullPath": "node_modules/es-toolkit/dist",
-                  "value": 61019,
+                  "value": 61286,
                   "children": [
                     {
                       "name": "compat",
                       "fullPath": "node_modules/es-toolkit/dist/compat",
-                      "value": 37201,
+                      "value": 38047,
                       "children": [
                         {
                           "name": "predicate",
                           "fullPath": "node_modules/es-toolkit/dist/compat/predicate",
-                          "value": 14276,
+                          "value": 14219,
                           "children": [
                             {
                               "name": "isMatchWith.mjs",
                               "fullPath": "node_modules/es-toolkit/dist/compat/predicate/isMatchWith.mjs",
-                              "value": 6305
+                              "value": 6248
                             },
                             {
                               "name": "matchesProperty.mjs",
@@ -1205,7 +1210,7 @@
                         {
                           "name": "object",
                           "fullPath": "node_modules/es-toolkit/dist/compat/object",
-                          "value": 7539,
+                          "value": 7542,
                           "children": [
                             {
                               "name": "get.mjs",
@@ -1220,7 +1225,7 @@
                             {
                               "name": "has.mjs",
                               "fullPath": "node_modules/es-toolkit/dist/compat/object/has.mjs",
-                              "value": 1686
+                              "value": 1689
                             },
                             {
                               "name": "cloneDeep.mjs",
@@ -1237,7 +1242,7 @@
                         {
                           "name": "util",
                           "fullPath": "node_modules/es-toolkit/dist/compat/util",
-                          "value": 5460,
+                          "value": 5958,
                           "children": [
                             {
                               "name": "toPath.mjs",
@@ -1263,13 +1268,18 @@
                               "name": "toNumber.mjs",
                               "fullPath": "node_modules/es-toolkit/dist/compat/util/toNumber.mjs",
                               "value": 513
+                            },
+                            {
+                              "name": "eq.mjs",
+                              "fullPath": "node_modules/es-toolkit/dist/compat/util/eq.mjs",
+                              "value": 498
                             }
                           ]
                         },
                         {
                           "name": "_internal",
                           "fullPath": "node_modules/es-toolkit/dist/compat/_internal",
-                          "value": 5026,
+                          "value": 5428,
                           "children": [
                             {
                               "name": "tags.mjs",
@@ -1277,14 +1287,14 @@
                               "value": 1132
                             },
                             {
+                              "name": "isDeepKey.mjs",
+                              "fullPath": "node_modules/es-toolkit/dist/compat/_internal/isDeepKey.mjs",
+                              "value": 1104
+                            },
+                            {
                               "name": "isKey.mjs",
                               "fullPath": "node_modules/es-toolkit/dist/compat/_internal/isKey.mjs",
                               "value": 979
-                            },
-                            {
-                              "name": "isDeepKey.mjs",
-                              "fullPath": "node_modules/es-toolkit/dist/compat/_internal/isDeepKey.mjs",
-                              "value": 683
                             },
                             {
                               "name": "compareValues.mjs",
@@ -1302,14 +1312,14 @@
                               "value": 369
                             },
                             {
-                              "name": "isIterateeCall.mjs",
-                              "fullPath": "node_modules/es-toolkit/dist/compat/_internal/isIterateeCall.mjs",
-                              "value": 349
-                            },
-                            {
                               "name": "isIndex.mjs",
                               "fullPath": "node_modules/es-toolkit/dist/compat/_internal/isIndex.mjs",
                               "value": 348
+                            },
+                            {
+                              "name": "isIterateeCall.mjs",
+                              "fullPath": "node_modules/es-toolkit/dist/compat/_internal/isIterateeCall.mjs",
+                              "value": 330
                             },
                             {
                               "name": "getSymbols.mjs",
@@ -1357,12 +1367,12 @@
                     {
                       "name": "predicate",
                       "fullPath": "node_modules/es-toolkit/dist/predicate",
-                      "value": 10853,
+                      "value": 10834,
                       "children": [
                         {
                           "name": "isEqualWith.mjs",
                           "fullPath": "node_modules/es-toolkit/dist/predicate/isEqualWith.mjs",
-                          "value": 5662
+                          "value": 5643
                         },
                         {
                           "name": "isPlainObject.mjs",
@@ -1431,28 +1441,6 @@
                       ]
                     },
                     {
-                      "name": "_internal",
-                      "fullPath": "node_modules/es-toolkit/dist/_internal",
-                      "value": 1308,
-                      "children": [
-                        {
-                          "name": "isEqualsSameValueZero.mjs",
-                          "fullPath": "node_modules/es-toolkit/dist/_internal/isEqualsSameValueZero.mjs",
-                          "value": 560
-                        },
-                        {
-                          "name": "isUnsafeProperty.mjs",
-                          "fullPath": "node_modules/es-toolkit/dist/_internal/isUnsafeProperty.mjs",
-                          "value": 493
-                        },
-                        {
-                          "name": "globalThis.mjs",
-                          "fullPath": "node_modules/es-toolkit/dist/_internal/globalThis.mjs",
-                          "value": 255
-                        }
-                      ]
-                    },
-                    {
                       "name": "function",
                       "fullPath": "node_modules/es-toolkit/dist/function",
                       "value": 1282,
@@ -1471,6 +1459,23 @@
                           "name": "noop.mjs",
                           "fullPath": "node_modules/es-toolkit/dist/function/noop.mjs",
                           "value": 250
+                        }
+                      ]
+                    },
+                    {
+                      "name": "_internal",
+                      "fullPath": "node_modules/es-toolkit/dist/_internal",
+                      "value": 748,
+                      "children": [
+                        {
+                          "name": "isUnsafeProperty.mjs",
+                          "fullPath": "node_modules/es-toolkit/dist/_internal/isUnsafeProperty.mjs",
+                          "value": 493
+                        },
+                        {
+                          "name": "globalThis.mjs",
+                          "fullPath": "node_modules/es-toolkit/dist/_internal/globalThis.mjs",
+                          "value": 255
                         }
                       ]
                     }
@@ -2503,32 +2508,32 @@
         {
           "name": "entry",
           "fullPath": "entry",
-          "value": 1681,
+          "value": 1607,
           "children": [
             {
               "name": "www",
               "fullPath": "entry/www",
-              "value": 1681,
+              "value": 1607,
               "children": [
                 {
                   "name": "src",
                   "fullPath": "entry/www/src",
-                  "value": 1681,
+                  "value": 1607,
                   "children": [
                     {
                       "name": "views",
                       "fullPath": "entry/www/src/views",
-                      "value": 1681,
+                      "value": 1607,
                       "children": [
                         {
                           "name": "IndexView",
                           "fullPath": "entry/www/src/views/IndexView",
-                          "value": 1681,
+                          "value": 1607,
                           "children": [
                             {
                               "name": "IndexLineChart.tsx",
                               "fullPath": "entry/www/src/views/IndexView/IndexLineChart.tsx",
-                              "value": 1681
+                              "value": 1607
                             }
                           ]
                         }
@@ -2545,70 +2550,70 @@
   },
   "sunburst": {
     "examplePath": "www/src/views/IndexView/IndexLineChart.tsx",
-    "totalSize": 890679,
-    "totalSizeLabel": "869.80 KB",
-    "moduleCount": 365,
-    "generatedAt": "2026-07-25T15:26:04.060Z",
+    "totalSize": 902693,
+    "totalSizeLabel": "881.54 KB",
+    "moduleCount": 366,
+    "generatedAt": "2026-08-19T07:37:00.048Z",
     "stages": [
       {
         "stage": "es6-folder",
-        "bytes": 1293595,
-        "humanReadableSize": "1.23 MB",
+        "bytes": 1354333,
+        "humanReadableSize": "1.29 MB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "tree-shaken",
-        "bytes": 893556,
-        "humanReadableSize": "872.61 KB",
+        "bytes": 905572,
+        "humanReadableSize": "884.35 KB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "minified",
-        "bytes": 300837,
-        "humanReadableSize": "293.79 KB",
-        "reductionFromBaselinePercent": 66.33
+        "bytes": 303293,
+        "humanReadableSize": "296.18 KB",
+        "reductionFromBaselinePercent": 66.51
       },
       {
         "stage": "minified+gzip",
-        "bytes": 98267,
-        "humanReadableSize": "95.96 KB",
-        "reductionFromBaselinePercent": 89
+        "bytes": 99252,
+        "humanReadableSize": "96.93 KB",
+        "reductionFromBaselinePercent": 89.04
       }
     ],
     "tree": {
       "name": "bundle",
       "fullPath": "bundle",
-      "value": 890679,
+      "value": 902693,
       "children": [
         {
           "name": "src",
           "fullPath": "src",
-          "value": 486844,
+          "value": 498665,
           "children": [
             {
               "name": "state",
               "fullPath": "src/state",
-              "value": 172217,
+              "value": 173244,
               "children": [
                 {
                   "name": "selectors",
                   "fullPath": "src/state/selectors",
-                  "value": 108306,
+                  "value": 108371,
                   "children": [
                     {
                       "name": "axisSelectors.ts",
                       "fullPath": "src/state/selectors/axisSelectors.ts",
-                      "value": 53636
+                      "value": 53630
                     },
                     {
                       "name": "combiners",
                       "fullPath": "src/state/selectors/combiners",
-                      "value": 19713,
+                      "value": 19758,
                       "children": [
                         {
                           "name": "combineTooltipPayload.ts",
                           "fullPath": "src/state/selectors/combiners/combineTooltipPayload.ts",
-                          "value": 6609
+                          "value": 6654
                         },
                         {
                           "name": "combineActiveTooltipIndex.ts",
@@ -2670,7 +2675,7 @@
                     {
                       "name": "tooltipSelectors.ts",
                       "fullPath": "src/state/selectors/tooltipSelectors.ts",
-                      "value": 11302
+                      "value": 11328
                     },
                     {
                       "name": "polarAxisSelectors.ts",
@@ -2840,6 +2845,11 @@
                   "value": 2685
                 },
                 {
+                  "name": "chartDataSlice.ts",
+                  "fullPath": "src/state/chartDataSlice.ts",
+                  "value": 2557
+                },
+                {
                   "name": "graphicalItemsSlice.ts",
                   "fullPath": "src/state/graphicalItemsSlice.ts",
                   "value": 2231
@@ -2848,11 +2858,6 @@
                   "name": "legendSlice.ts",
                   "fullPath": "src/state/legendSlice.ts",
                   "value": 2129
-                },
-                {
-                  "name": "chartDataSlice.ts",
-                  "fullPath": "src/state/chartDataSlice.ts",
-                  "value": 1813
                 },
                 {
                   "name": "RechartsStoreProvider.tsx",
@@ -2925,6 +2930,18 @@
                   "value": 691
                 },
                 {
+                  "name": "types",
+                  "fullPath": "src/state/types",
+                  "value": 665,
+                  "children": [
+                    {
+                      "name": "StackedGraphicalItem.ts",
+                      "fullPath": "src/state/types/StackedGraphicalItem.ts",
+                      "value": 665
+                    }
+                  ]
+                },
+                {
                   "name": "polarAxisSlice.ts",
                   "fullPath": "src/state/polarAxisSlice.ts",
                   "value": 633
@@ -2938,18 +2955,6 @@
                   "name": "polarOptionsSlice.ts",
                   "fullPath": "src/state/polarOptionsSlice.ts",
                   "value": 592
-                },
-                {
-                  "name": "types",
-                  "fullPath": "src/state/types",
-                  "value": 447,
-                  "children": [
-                    {
-                      "name": "StackedGraphicalItem.ts",
-                      "fullPath": "src/state/types/StackedGraphicalItem.ts",
-                      "value": 447
-                    }
-                  ]
                 },
                 {
                   "name": "reduxDevtoolsJsonStringifyReplacer.ts",
@@ -2971,17 +2976,17 @@
             {
               "name": "util",
               "fullPath": "src/util",
-              "value": 105996,
+              "value": 107880,
               "children": [
                 {
                   "name": "scale",
                   "fullPath": "src/util/scale",
-                  "value": 15313,
+                  "value": 15741,
                   "children": [
                     {
                       "name": "getNiceTickValues.ts",
                       "fullPath": "src/util/scale/getNiceTickValues.ts",
-                      "value": 10336
+                      "value": 10764
                     },
                     {
                       "name": "createCategoricalInverse.ts",
@@ -3028,24 +3033,24 @@
                   "value": 5637
                 },
                 {
+                  "name": "ReduceCSSCalc.ts",
+                  "fullPath": "src/util/ReduceCSSCalc.ts",
+                  "value": 5145
+                },
+                {
                   "name": "DataUtils.ts",
                   "fullPath": "src/util/DataUtils.ts",
                   "value": 5015
                 },
                 {
+                  "name": "resolveDefaultProps.tsx",
+                  "fullPath": "src/util/resolveDefaultProps.tsx",
+                  "value": 4469
+                },
+                {
                   "name": "getRelativeCoordinate.ts",
                   "fullPath": "src/util/getRelativeCoordinate.ts",
                   "value": 4292
-                },
-                {
-                  "name": "ReduceCSSCalc.ts",
-                  "fullPath": "src/util/ReduceCSSCalc.ts",
-                  "value": 4223
-                },
-                {
-                  "name": "resolveDefaultProps.tsx",
-                  "fullPath": "src/util/resolveDefaultProps.tsx",
-                  "value": 3871
                 },
                 {
                   "name": "types.ts",
@@ -3207,11 +3212,6 @@
                   "value": 258
                 },
                 {
-                  "name": "getSliced.ts",
-                  "fullPath": "src/util/getSliced.ts",
-                  "value": 208
-                },
-                {
                   "name": "getClassNameFromUnknown.tsx",
                   "fullPath": "src/util/getClassNameFromUnknown.tsx",
                   "value": 171
@@ -3227,6 +3227,11 @@
                   "value": 149
                 },
                 {
+                  "name": "getSliced.ts",
+                  "fullPath": "src/util/getSliced.ts",
+                  "value": 144
+                },
+                {
                   "name": "ReactUtils.ts",
                   "fullPath": "src/util/ReactUtils.ts",
                   "value": 141
@@ -3236,32 +3241,32 @@
             {
               "name": "cartesian",
               "fullPath": "src/cartesian",
-              "value": 80766,
+              "value": 83197,
               "children": [
                 {
                   "name": "Line.tsx",
                   "fullPath": "src/cartesian/Line.tsx",
-                  "value": 14832
+                  "value": 16086
                 },
                 {
                   "name": "CartesianAxis.tsx",
                   "fullPath": "src/cartesian/CartesianAxis.tsx",
-                  "value": 14375
+                  "value": 15268
                 },
                 {
                   "name": "CartesianGrid.tsx",
                   "fullPath": "src/cartesian/CartesianGrid.tsx",
-                  "value": 11723
+                  "value": 11470
+                },
+                {
+                  "name": "YAxis.tsx",
+                  "fullPath": "src/cartesian/YAxis.tsx",
+                  "value": 6858
                 },
                 {
                   "name": "getCartesianPosition.tsx",
                   "fullPath": "src/cartesian/getCartesianPosition.tsx",
                   "value": 6776
-                },
-                {
-                  "name": "YAxis.tsx",
-                  "fullPath": "src/cartesian/YAxis.tsx",
-                  "value": 6321
                 },
                 {
                   "name": "XAxis.tsx",
@@ -3308,27 +3313,27 @@
             {
               "name": "component",
               "fullPath": "src/component",
-              "value": 37825,
+              "value": 40074,
               "children": [
                 {
                   "name": "Label.tsx",
                   "fullPath": "src/component/Label.tsx",
-                  "value": 10622
+                  "value": 11193
                 },
                 {
                   "name": "Legend.tsx",
                   "fullPath": "src/component/Legend.tsx",
-                  "value": 7854
+                  "value": 8338
                 },
                 {
                   "name": "Text.tsx",
                   "fullPath": "src/component/Text.tsx",
-                  "value": 7597
+                  "value": 8302
                 },
                 {
                   "name": "DefaultLegendContent.tsx",
                   "fullPath": "src/component/DefaultLegendContent.tsx",
-                  "value": 4696
+                  "value": 5185
                 },
                 {
                   "name": "LabelList.tsx",
@@ -3439,7 +3444,7 @@
             {
               "name": "zIndex",
               "fullPath": "src/zIndex",
-              "value": 9406,
+              "value": 9452,
               "children": [
                 {
                   "name": "ZIndexLayer.tsx",
@@ -3449,7 +3454,7 @@
                 {
                   "name": "DefaultZIndexes.tsx",
                   "fullPath": "src/zIndex/DefaultZIndexes.tsx",
-                  "value": 2271
+                  "value": 2317
                 },
                 {
                   "name": "ZIndexPortal.tsx",
@@ -3577,26 +3582,31 @@
               ]
             },
             {
-              "name": "hooks.ts",
-              "fullPath": "src/hooks.ts",
-              "value": 1813
-            },
-            {
               "name": "theme",
               "fullPath": "src/theme",
-              "value": 718,
+              "value": 4902,
               "children": [
                 {
-                  "name": "legacyTheme.ts",
-                  "fullPath": "src/theme/legacyTheme.ts",
-                  "value": 371
+                  "name": "graphicalItemIdentity.ts",
+                  "fullPath": "src/theme/graphicalItemIdentity.ts",
+                  "value": 2534
+                },
+                {
+                  "name": "useBackwardsCompatibleTheme.ts",
+                  "fullPath": "src/theme/useBackwardsCompatibleTheme.ts",
+                  "value": 1863
                 },
                 {
                   "name": "RechartsThemeContext.ts",
                   "fullPath": "src/theme/RechartsThemeContext.ts",
-                  "value": 347
+                  "value": 505
                 }
               ]
+            },
+            {
+              "name": "hooks.ts",
+              "fullPath": "src/hooks.ts",
+              "value": 1813
             },
             {
               "name": "polar",
@@ -3620,7 +3630,7 @@
         {
           "name": "node_modules",
           "fullPath": "node_modules",
-          "value": 402154,
+          "value": 402421,
           "children": [
             {
               "name": "@reduxjs",
@@ -3677,27 +3687,27 @@
             {
               "name": "es-toolkit",
               "fullPath": "node_modules/es-toolkit",
-              "value": 61019,
+              "value": 61286,
               "children": [
                 {
                   "name": "dist",
                   "fullPath": "node_modules/es-toolkit/dist",
-                  "value": 61019,
+                  "value": 61286,
                   "children": [
                     {
                       "name": "compat",
                       "fullPath": "node_modules/es-toolkit/dist/compat",
-                      "value": 37201,
+                      "value": 38047,
                       "children": [
                         {
                           "name": "predicate",
                           "fullPath": "node_modules/es-toolkit/dist/compat/predicate",
-                          "value": 14276,
+                          "value": 14219,
                           "children": [
                             {
                               "name": "isMatchWith.mjs",
                               "fullPath": "node_modules/es-toolkit/dist/compat/predicate/isMatchWith.mjs",
-                              "value": 6305
+                              "value": 6248
                             },
                             {
                               "name": "matchesProperty.mjs",
@@ -3749,7 +3759,7 @@
                         {
                           "name": "object",
                           "fullPath": "node_modules/es-toolkit/dist/compat/object",
-                          "value": 7539,
+                          "value": 7542,
                           "children": [
                             {
                               "name": "get.mjs",
@@ -3764,7 +3774,7 @@
                             {
                               "name": "has.mjs",
                               "fullPath": "node_modules/es-toolkit/dist/compat/object/has.mjs",
-                              "value": 1686
+                              "value": 1689
                             },
                             {
                               "name": "cloneDeep.mjs",
@@ -3781,7 +3791,7 @@
                         {
                           "name": "util",
                           "fullPath": "node_modules/es-toolkit/dist/compat/util",
-                          "value": 5460,
+                          "value": 5958,
                           "children": [
                             {
                               "name": "toPath.mjs",
@@ -3807,13 +3817,18 @@
                               "name": "toNumber.mjs",
                               "fullPath": "node_modules/es-toolkit/dist/compat/util/toNumber.mjs",
                               "value": 513
+                            },
+                            {
+                              "name": "eq.mjs",
+                              "fullPath": "node_modules/es-toolkit/dist/compat/util/eq.mjs",
+                              "value": 498
                             }
                           ]
                         },
                         {
                           "name": "_internal",
                           "fullPath": "node_modules/es-toolkit/dist/compat/_internal",
-                          "value": 5026,
+                          "value": 5428,
                           "children": [
                             {
                               "name": "tags.mjs",
@@ -3821,14 +3836,14 @@
                               "value": 1132
                             },
                             {
+                              "name": "isDeepKey.mjs",
+                              "fullPath": "node_modules/es-toolkit/dist/compat/_internal/isDeepKey.mjs",
+                              "value": 1104
+                            },
+                            {
                               "name": "isKey.mjs",
                               "fullPath": "node_modules/es-toolkit/dist/compat/_internal/isKey.mjs",
                               "value": 979
-                            },
-                            {
-                              "name": "isDeepKey.mjs",
-                              "fullPath": "node_modules/es-toolkit/dist/compat/_internal/isDeepKey.mjs",
-                              "value": 683
                             },
                             {
                               "name": "compareValues.mjs",
@@ -3846,14 +3861,14 @@
                               "value": 369
                             },
                             {
-                              "name": "isIterateeCall.mjs",
-                              "fullPath": "node_modules/es-toolkit/dist/compat/_internal/isIterateeCall.mjs",
-                              "value": 349
-                            },
-                            {
                               "name": "isIndex.mjs",
                               "fullPath": "node_modules/es-toolkit/dist/compat/_internal/isIndex.mjs",
                               "value": 348
+                            },
+                            {
+                              "name": "isIterateeCall.mjs",
+                              "fullPath": "node_modules/es-toolkit/dist/compat/_internal/isIterateeCall.mjs",
+                              "value": 330
                             },
                             {
                               "name": "getSymbols.mjs",
@@ -3901,12 +3916,12 @@
                     {
                       "name": "predicate",
                       "fullPath": "node_modules/es-toolkit/dist/predicate",
-                      "value": 10853,
+                      "value": 10834,
                       "children": [
                         {
                           "name": "isEqualWith.mjs",
                           "fullPath": "node_modules/es-toolkit/dist/predicate/isEqualWith.mjs",
-                          "value": 5662
+                          "value": 5643
                         },
                         {
                           "name": "isPlainObject.mjs",
@@ -3975,28 +3990,6 @@
                       ]
                     },
                     {
-                      "name": "_internal",
-                      "fullPath": "node_modules/es-toolkit/dist/_internal",
-                      "value": 1308,
-                      "children": [
-                        {
-                          "name": "isEqualsSameValueZero.mjs",
-                          "fullPath": "node_modules/es-toolkit/dist/_internal/isEqualsSameValueZero.mjs",
-                          "value": 560
-                        },
-                        {
-                          "name": "isUnsafeProperty.mjs",
-                          "fullPath": "node_modules/es-toolkit/dist/_internal/isUnsafeProperty.mjs",
-                          "value": 493
-                        },
-                        {
-                          "name": "globalThis.mjs",
-                          "fullPath": "node_modules/es-toolkit/dist/_internal/globalThis.mjs",
-                          "value": 255
-                        }
-                      ]
-                    },
-                    {
                       "name": "function",
                       "fullPath": "node_modules/es-toolkit/dist/function",
                       "value": 1282,
@@ -4015,6 +4008,23 @@
                           "name": "noop.mjs",
                           "fullPath": "node_modules/es-toolkit/dist/function/noop.mjs",
                           "value": 250
+                        }
+                      ]
+                    },
+                    {
+                      "name": "_internal",
+                      "fullPath": "node_modules/es-toolkit/dist/_internal",
+                      "value": 748,
+                      "children": [
+                        {
+                          "name": "isUnsafeProperty.mjs",
+                          "fullPath": "node_modules/es-toolkit/dist/_internal/isUnsafeProperty.mjs",
+                          "value": 493
+                        },
+                        {
+                          "name": "globalThis.mjs",
+                          "fullPath": "node_modules/es-toolkit/dist/_internal/globalThis.mjs",
+                          "value": 255
                         }
                       ]
                     }
@@ -5047,32 +5057,32 @@
         {
           "name": "entry",
           "fullPath": "entry",
-          "value": 1681,
+          "value": 1607,
           "children": [
             {
               "name": "www",
               "fullPath": "entry/www",
-              "value": 1681,
+              "value": 1607,
               "children": [
                 {
                   "name": "src",
                   "fullPath": "entry/www/src",
-                  "value": 1681,
+                  "value": 1607,
                   "children": [
                     {
                       "name": "views",
                       "fullPath": "entry/www/src/views",
-                      "value": 1681,
+                      "value": 1607,
                       "children": [
                         {
                           "name": "IndexView",
                           "fullPath": "entry/www/src/views/IndexView",
-                          "value": 1681,
+                          "value": 1607,
                           "children": [
                             {
                               "name": "IndexLineChart.tsx",
                               "fullPath": "entry/www/src/views/IndexView/IndexLineChart.tsx",
-                              "value": 1681
+                              "value": 1607
                             }
                           ]
                         }
