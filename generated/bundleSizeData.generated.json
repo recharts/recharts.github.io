@@ -1,60 +1,60 @@
 {
   "treemap": {
     "examplePath": "www/src/views/IndexView/IndexLineChart.tsx",
-    "totalSize": 903003,
-    "totalSizeLabel": "881.84 KB",
-    "moduleCount": 367,
-    "generatedAt": "2026-08-23T19:59:42.101Z",
+    "totalSize": 926478,
+    "totalSizeLabel": "904.76 KB",
+    "moduleCount": 372,
+    "generatedAt": "2026-09-08T09:27:14.186Z",
     "stages": [
       {
         "stage": "es6-folder",
-        "bytes": 1362692,
-        "humanReadableSize": "1.30 MB",
+        "bytes": 1411601,
+        "humanReadableSize": "1.35 MB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "tree-shaken",
-        "bytes": 905884,
-        "humanReadableSize": "884.65 KB",
+        "bytes": 929369,
+        "humanReadableSize": "907.59 KB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "minified",
-        "bytes": 302797,
-        "humanReadableSize": "295.70 KB",
-        "reductionFromBaselinePercent": 66.57
+        "bytes": 307603,
+        "humanReadableSize": "300.39 KB",
+        "reductionFromBaselinePercent": 66.9
       },
       {
         "stage": "minified+gzip",
-        "bytes": 99147,
-        "humanReadableSize": "96.82 KB",
-        "reductionFromBaselinePercent": 89.06
+        "bytes": 100907,
+        "humanReadableSize": "98.54 KB",
+        "reductionFromBaselinePercent": 89.14
       }
     ],
     "tree": {
       "name": "bundle",
       "fullPath": "bundle",
-      "value": 903003,
+      "value": 926478,
       "children": [
         {
           "name": "src",
           "fullPath": "src",
-          "value": 499541,
+          "value": 522902,
           "children": [
             {
               "name": "state",
               "fullPath": "src/state",
-              "value": 173244,
+              "value": 181596,
               "children": [
                 {
                   "name": "selectors",
                   "fullPath": "src/state/selectors",
-                  "value": 108371,
+                  "value": 113431,
                   "children": [
                     {
                       "name": "axisSelectors.ts",
                       "fullPath": "src/state/selectors/axisSelectors.ts",
-                      "value": 53630
+                      "value": 55513
                     },
                     {
                       "name": "combiners",
@@ -126,7 +126,7 @@
                     {
                       "name": "tooltipSelectors.ts",
                       "fullPath": "src/state/selectors/tooltipSelectors.ts",
-                      "value": 11328
+                      "value": 14245
                     },
                     {
                       "name": "polarAxisSelectors.ts",
@@ -202,6 +202,11 @@
                       "name": "selectActivePropsFromChartPointer.ts",
                       "fullPath": "src/state/selectors/selectActivePropsFromChartPointer.ts",
                       "value": 337
+                    },
+                    {
+                      "name": "zoomSelectors.ts",
+                      "fullPath": "src/state/selectors/zoomSelectors.ts",
+                      "value": 260
                     },
                     {
                       "name": "selectAllAxes.ts",
@@ -293,7 +298,7 @@
                 {
                   "name": "store.ts",
                   "fullPath": "src/state/store.ts",
-                  "value": 2685
+                  "value": 2743
                 },
                 {
                   "name": "chartDataSlice.ts",
@@ -306,19 +311,24 @@
                   "value": 2231
                 },
                 {
+                  "name": "zoomSlice.ts",
+                  "fullPath": "src/state/zoomSlice.ts",
+                  "value": 2148
+                },
+                {
                   "name": "legendSlice.ts",
                   "fullPath": "src/state/legendSlice.ts",
                   "value": 2129
                 },
                 {
+                  "name": "hooks.ts",
+                  "fullPath": "src/state/hooks.ts",
+                  "value": 1624
+                },
+                {
                   "name": "RechartsStoreProvider.tsx",
                   "fullPath": "src/state/RechartsStoreProvider.tsx",
                   "value": 1614
-                },
-                {
-                  "name": "hooks.ts",
-                  "fullPath": "src/state/hooks.ts",
-                  "value": 1599
                 },
                 {
                   "name": "SetGraphicalItem.ts",
@@ -336,6 +346,11 @@
                   "value": 1234
                 },
                 {
+                  "name": "renderedTicksSlice.ts",
+                  "fullPath": "src/state/renderedTicksSlice.ts",
+                  "value": 1144
+                },
+                {
                   "name": "optionsSlice.ts",
                   "fullPath": "src/state/optionsSlice.ts",
                   "value": 1126
@@ -351,14 +366,14 @@
                   "value": 1088
                 },
                 {
-                  "name": "renderedTicksSlice.ts",
-                  "fullPath": "src/state/renderedTicksSlice.ts",
-                  "value": 1053
-                },
-                {
                   "name": "SetTooltipEntrySettings.tsx",
                   "fullPath": "src/state/SetTooltipEntrySettings.tsx",
                   "value": 980
+                },
+                {
+                  "name": "zoomSettingsSlice.ts",
+                  "fullPath": "src/state/zoomSettingsSlice.ts",
+                  "value": 952
                 },
                 {
                   "name": "layoutSlice.ts",
@@ -405,7 +420,7 @@
                 {
                   "name": "polarOptionsSlice.ts",
                   "fullPath": "src/state/polarOptionsSlice.ts",
-                  "value": 592
+                  "value": 610
                 },
                 {
                   "name": "reduxDevtoolsJsonStringifyReplacer.ts",
@@ -427,7 +442,7 @@
             {
               "name": "util",
               "fullPath": "src/util",
-              "value": 107958,
+              "value": 119349,
               "children": [
                 {
                   "name": "scale",
@@ -469,6 +484,23 @@
                   "value": 14790
                 },
                 {
+                  "name": "zoom",
+                  "fullPath": "src/util/zoom",
+                  "value": 8478,
+                  "children": [
+                    {
+                      "name": "viewport.ts",
+                      "fullPath": "src/util/zoom/viewport.ts",
+                      "value": 5109
+                    },
+                    {
+                      "name": "transform.ts",
+                      "fullPath": "src/util/zoom/transform.ts",
+                      "value": 3369
+                    }
+                  ]
+                },
+                {
                   "name": "svgPropertiesNoEvents.ts",
                   "fullPath": "src/util/svgPropertiesNoEvents.ts",
                   "value": 6716
@@ -482,6 +514,11 @@
                   "name": "getActiveCoordinate.ts",
                   "fullPath": "src/util/getActiveCoordinate.ts",
                   "value": 5637
+                },
+                {
+                  "name": "propsAreEqual.ts",
+                  "fullPath": "src/util/propsAreEqual.ts",
+                  "value": 5237
                 },
                 {
                   "name": "DataUtils.ts",
@@ -524,11 +561,6 @@
                   "value": 2795
                 },
                 {
-                  "name": "propsAreEqual.ts",
-                  "fullPath": "src/util/propsAreEqual.ts",
-                  "value": 2738
-                },
-                {
                   "name": "DOMUtils.ts",
                   "fullPath": "src/util/DOMUtils.ts",
                   "value": 2400
@@ -559,6 +591,11 @@
                   "value": 1319
                 },
                 {
+                  "name": "LRUCache.ts",
+                  "fullPath": "src/util/LRUCache.ts",
+                  "value": 1136
+                },
+                {
                   "name": "TickUtils.ts",
                   "fullPath": "src/util/TickUtils.ts",
                   "value": 1134
@@ -587,11 +624,6 @@
                   "name": "getEveryNth.ts",
                   "fullPath": "src/util/getEveryNth.ts",
                   "value": 799
-                },
-                {
-                  "name": "LRUCache.ts",
-                  "fullPath": "src/util/LRUCache.ts",
-                  "value": 722
                 },
                 {
                   "name": "getRadiusAndStrokeWidthFromDot.tsx",
@@ -692,22 +724,22 @@
             {
               "name": "cartesian",
               "fullPath": "src/cartesian",
-              "value": 83197,
+              "value": 86608,
               "children": [
                 {
                   "name": "Line.tsx",
                   "fullPath": "src/cartesian/Line.tsx",
-                  "value": 16086
+                  "value": 16345
                 },
                 {
                   "name": "CartesianAxis.tsx",
                   "fullPath": "src/cartesian/CartesianAxis.tsx",
-                  "value": 15268
+                  "value": 15313
                 },
                 {
                   "name": "CartesianGrid.tsx",
                   "fullPath": "src/cartesian/CartesianGrid.tsx",
-                  "value": 11470
+                  "value": 13447
                 },
                 {
                   "name": "YAxis.tsx",
@@ -737,7 +769,7 @@
                 {
                   "name": "getEquidistantTicks.ts",
                   "fullPath": "src/cartesian/getEquidistantTicks.ts",
-                  "value": 4068
+                  "value": 4798
                 },
                 {
                   "name": "useAnimatedLineLength.ts",
@@ -747,7 +779,7 @@
                 {
                   "name": "GraphicalItemClipPath.tsx",
                   "fullPath": "src/cartesian/GraphicalItemClipPath.tsx",
-                  "value": 1558
+                  "value": 1958
                 },
                 {
                   "name": "cartesianPositionToCSSTranslate.tsx",
@@ -764,7 +796,7 @@
             {
               "name": "component",
               "fullPath": "src/component",
-              "value": 40278,
+              "value": 40388,
               "children": [
                 {
                   "name": "Label.tsx",
@@ -792,14 +824,14 @@
                   "value": 3115
                 },
                 {
+                  "name": "Dots.tsx",
+                  "fullPath": "src/component/Dots.tsx",
+                  "value": 1885
+                },
+                {
                   "name": "ActivePoints.tsx",
                   "fullPath": "src/component/ActivePoints.tsx",
                   "value": 1870
-                },
-                {
-                  "name": "Dots.tsx",
-                  "fullPath": "src/component/Dots.tsx",
-                  "value": 1775
                 },
                 {
                   "name": "ResponsiveContainer.tsx",
@@ -1008,7 +1040,7 @@
             {
               "name": "theme",
               "fullPath": "src/theme",
-              "value": 5276,
+              "value": 5300,
               "children": [
                 {
                   "name": "graphicalItemIdentity.ts",
@@ -1018,7 +1050,7 @@
                 {
                   "name": "useBackwardsCompatibleTheme.ts",
                   "fullPath": "src/theme/useBackwardsCompatibleTheme.ts",
-                  "value": 1863
+                  "value": 1887
                 },
                 {
                   "name": "RechartsThemeContext.ts",
@@ -1035,7 +1067,7 @@
             {
               "name": "container",
               "fullPath": "src/container",
-              "value": 5102,
+              "value": 5175,
               "children": [
                 {
                   "name": "RootSurface.tsx",
@@ -1045,7 +1077,7 @@
                 {
                   "name": "ClipPathProvider.tsx",
                   "fullPath": "src/container/ClipPathProvider.tsx",
-                  "value": 1055
+                  "value": 1128
                 },
                 {
                   "name": "Surface.tsx",
@@ -1086,7 +1118,7 @@
         {
           "name": "node_modules",
           "fullPath": "node_modules",
-          "value": 402421,
+          "value": 402535,
           "children": [
             {
               "name": "@reduxjs",
@@ -1627,17 +1659,17 @@
             {
               "name": "immer",
               "fullPath": "node_modules/immer",
-              "value": 27717,
+              "value": 27831,
               "children": [
                 {
                   "name": "dist",
                   "fullPath": "node_modules/immer/dist",
-                  "value": 27717,
+                  "value": 27831,
                   "children": [
                     {
                       "name": "immer.mjs",
                       "fullPath": "node_modules/immer/dist/immer.mjs",
-                      "value": 27717
+                      "value": 27831
                     }
                   ]
                 }
@@ -2555,60 +2587,60 @@
   },
   "sunburst": {
     "examplePath": "www/src/views/IndexView/IndexLineChart.tsx",
-    "totalSize": 903003,
-    "totalSizeLabel": "881.84 KB",
-    "moduleCount": 367,
-    "generatedAt": "2026-08-23T19:59:39.963Z",
+    "totalSize": 926478,
+    "totalSizeLabel": "904.76 KB",
+    "moduleCount": 372,
+    "generatedAt": "2026-09-08T09:27:12.623Z",
     "stages": [
       {
         "stage": "es6-folder",
-        "bytes": 1362692,
-        "humanReadableSize": "1.30 MB",
+        "bytes": 1411601,
+        "humanReadableSize": "1.35 MB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "tree-shaken",
-        "bytes": 905884,
-        "humanReadableSize": "884.65 KB",
+        "bytes": 929369,
+        "humanReadableSize": "907.59 KB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "minified",
-        "bytes": 302797,
-        "humanReadableSize": "295.70 KB",
-        "reductionFromBaselinePercent": 66.57
+        "bytes": 307603,
+        "humanReadableSize": "300.39 KB",
+        "reductionFromBaselinePercent": 66.9
       },
       {
         "stage": "minified+gzip",
-        "bytes": 99147,
-        "humanReadableSize": "96.82 KB",
-        "reductionFromBaselinePercent": 89.06
+        "bytes": 100907,
+        "humanReadableSize": "98.54 KB",
+        "reductionFromBaselinePercent": 89.14
       }
     ],
     "tree": {
       "name": "bundle",
       "fullPath": "bundle",
-      "value": 903003,
+      "value": 926478,
       "children": [
         {
           "name": "src",
           "fullPath": "src",
-          "value": 499541,
+          "value": 522902,
           "children": [
             {
               "name": "state",
               "fullPath": "src/state",
-              "value": 173244,
+              "value": 181596,
               "children": [
                 {
                   "name": "selectors",
                   "fullPath": "src/state/selectors",
-                  "value": 108371,
+                  "value": 113431,
                   "children": [
                     {
                       "name": "axisSelectors.ts",
                       "fullPath": "src/state/selectors/axisSelectors.ts",
-                      "value": 53630
+                      "value": 55513
                     },
                     {
                       "name": "combiners",
@@ -2680,7 +2712,7 @@
                     {
                       "name": "tooltipSelectors.ts",
                       "fullPath": "src/state/selectors/tooltipSelectors.ts",
-                      "value": 11328
+                      "value": 14245
                     },
                     {
                       "name": "polarAxisSelectors.ts",
@@ -2756,6 +2788,11 @@
                       "name": "selectActivePropsFromChartPointer.ts",
                       "fullPath": "src/state/selectors/selectActivePropsFromChartPointer.ts",
                       "value": 337
+                    },
+                    {
+                      "name": "zoomSelectors.ts",
+                      "fullPath": "src/state/selectors/zoomSelectors.ts",
+                      "value": 260
                     },
                     {
                       "name": "selectAllAxes.ts",
@@ -2847,7 +2884,7 @@
                 {
                   "name": "store.ts",
                   "fullPath": "src/state/store.ts",
-                  "value": 2685
+                  "value": 2743
                 },
                 {
                   "name": "chartDataSlice.ts",
@@ -2860,19 +2897,24 @@
                   "value": 2231
                 },
                 {
+                  "name": "zoomSlice.ts",
+                  "fullPath": "src/state/zoomSlice.ts",
+                  "value": 2148
+                },
+                {
                   "name": "legendSlice.ts",
                   "fullPath": "src/state/legendSlice.ts",
                   "value": 2129
                 },
                 {
+                  "name": "hooks.ts",
+                  "fullPath": "src/state/hooks.ts",
+                  "value": 1624
+                },
+                {
                   "name": "RechartsStoreProvider.tsx",
                   "fullPath": "src/state/RechartsStoreProvider.tsx",
                   "value": 1614
-                },
-                {
-                  "name": "hooks.ts",
-                  "fullPath": "src/state/hooks.ts",
-                  "value": 1599
                 },
                 {
                   "name": "SetGraphicalItem.ts",
@@ -2890,6 +2932,11 @@
                   "value": 1234
                 },
                 {
+                  "name": "renderedTicksSlice.ts",
+                  "fullPath": "src/state/renderedTicksSlice.ts",
+                  "value": 1144
+                },
+                {
                   "name": "optionsSlice.ts",
                   "fullPath": "src/state/optionsSlice.ts",
                   "value": 1126
@@ -2905,14 +2952,14 @@
                   "value": 1088
                 },
                 {
-                  "name": "renderedTicksSlice.ts",
-                  "fullPath": "src/state/renderedTicksSlice.ts",
-                  "value": 1053
-                },
-                {
                   "name": "SetTooltipEntrySettings.tsx",
                   "fullPath": "src/state/SetTooltipEntrySettings.tsx",
                   "value": 980
+                },
+                {
+                  "name": "zoomSettingsSlice.ts",
+                  "fullPath": "src/state/zoomSettingsSlice.ts",
+                  "value": 952
                 },
                 {
                   "name": "layoutSlice.ts",
@@ -2959,7 +3006,7 @@
                 {
                   "name": "polarOptionsSlice.ts",
                   "fullPath": "src/state/polarOptionsSlice.ts",
-                  "value": 592
+                  "value": 610
                 },
                 {
                   "name": "reduxDevtoolsJsonStringifyReplacer.ts",
@@ -2981,7 +3028,7 @@
             {
               "name": "util",
               "fullPath": "src/util",
-              "value": 107958,
+              "value": 119349,
               "children": [
                 {
                   "name": "scale",
@@ -3023,6 +3070,23 @@
                   "value": 14790
                 },
                 {
+                  "name": "zoom",
+                  "fullPath": "src/util/zoom",
+                  "value": 8478,
+                  "children": [
+                    {
+                      "name": "viewport.ts",
+                      "fullPath": "src/util/zoom/viewport.ts",
+                      "value": 5109
+                    },
+                    {
+                      "name": "transform.ts",
+                      "fullPath": "src/util/zoom/transform.ts",
+                      "value": 3369
+                    }
+                  ]
+                },
+                {
                   "name": "svgPropertiesNoEvents.ts",
                   "fullPath": "src/util/svgPropertiesNoEvents.ts",
                   "value": 6716
@@ -3036,6 +3100,11 @@
                   "name": "getActiveCoordinate.ts",
                   "fullPath": "src/util/getActiveCoordinate.ts",
                   "value": 5637
+                },
+                {
+                  "name": "propsAreEqual.ts",
+                  "fullPath": "src/util/propsAreEqual.ts",
+                  "value": 5237
                 },
                 {
                   "name": "DataUtils.ts",
@@ -3078,11 +3147,6 @@
                   "value": 2795
                 },
                 {
-                  "name": "propsAreEqual.ts",
-                  "fullPath": "src/util/propsAreEqual.ts",
-                  "value": 2738
-                },
-                {
                   "name": "DOMUtils.ts",
                   "fullPath": "src/util/DOMUtils.ts",
                   "value": 2400
@@ -3113,6 +3177,11 @@
                   "value": 1319
                 },
                 {
+                  "name": "LRUCache.ts",
+                  "fullPath": "src/util/LRUCache.ts",
+                  "value": 1136
+                },
+                {
                   "name": "TickUtils.ts",
                   "fullPath": "src/util/TickUtils.ts",
                   "value": 1134
@@ -3141,11 +3210,6 @@
                   "name": "getEveryNth.ts",
                   "fullPath": "src/util/getEveryNth.ts",
                   "value": 799
-                },
-                {
-                  "name": "LRUCache.ts",
-                  "fullPath": "src/util/LRUCache.ts",
-                  "value": 722
                 },
                 {
                   "name": "getRadiusAndStrokeWidthFromDot.tsx",
@@ -3246,22 +3310,22 @@
             {
               "name": "cartesian",
               "fullPath": "src/cartesian",
-              "value": 83197,
+              "value": 86608,
               "children": [
                 {
                   "name": "Line.tsx",
                   "fullPath": "src/cartesian/Line.tsx",
-                  "value": 16086
+                  "value": 16345
                 },
                 {
                   "name": "CartesianAxis.tsx",
                   "fullPath": "src/cartesian/CartesianAxis.tsx",
-                  "value": 15268
+                  "value": 15313
                 },
                 {
                   "name": "CartesianGrid.tsx",
                   "fullPath": "src/cartesian/CartesianGrid.tsx",
-                  "value": 11470
+                  "value": 13447
                 },
                 {
                   "name": "YAxis.tsx",
@@ -3291,7 +3355,7 @@
                 {
                   "name": "getEquidistantTicks.ts",
                   "fullPath": "src/cartesian/getEquidistantTicks.ts",
-                  "value": 4068
+                  "value": 4798
                 },
                 {
                   "name": "useAnimatedLineLength.ts",
@@ -3301,7 +3365,7 @@
                 {
                   "name": "GraphicalItemClipPath.tsx",
                   "fullPath": "src/cartesian/GraphicalItemClipPath.tsx",
-                  "value": 1558
+                  "value": 1958
                 },
                 {
                   "name": "cartesianPositionToCSSTranslate.tsx",
@@ -3318,7 +3382,7 @@
             {
               "name": "component",
               "fullPath": "src/component",
-              "value": 40278,
+              "value": 40388,
               "children": [
                 {
                   "name": "Label.tsx",
@@ -3346,14 +3410,14 @@
                   "value": 3115
                 },
                 {
+                  "name": "Dots.tsx",
+                  "fullPath": "src/component/Dots.tsx",
+                  "value": 1885
+                },
+                {
                   "name": "ActivePoints.tsx",
                   "fullPath": "src/component/ActivePoints.tsx",
                   "value": 1870
-                },
-                {
-                  "name": "Dots.tsx",
-                  "fullPath": "src/component/Dots.tsx",
-                  "value": 1775
                 },
                 {
                   "name": "ResponsiveContainer.tsx",
@@ -3562,7 +3626,7 @@
             {
               "name": "theme",
               "fullPath": "src/theme",
-              "value": 5276,
+              "value": 5300,
               "children": [
                 {
                   "name": "graphicalItemIdentity.ts",
@@ -3572,7 +3636,7 @@
                 {
                   "name": "useBackwardsCompatibleTheme.ts",
                   "fullPath": "src/theme/useBackwardsCompatibleTheme.ts",
-                  "value": 1863
+                  "value": 1887
                 },
                 {
                   "name": "RechartsThemeContext.ts",
@@ -3589,7 +3653,7 @@
             {
               "name": "container",
               "fullPath": "src/container",
-              "value": 5102,
+              "value": 5175,
               "children": [
                 {
                   "name": "RootSurface.tsx",
@@ -3599,7 +3663,7 @@
                 {
                   "name": "ClipPathProvider.tsx",
                   "fullPath": "src/container/ClipPathProvider.tsx",
-                  "value": 1055
+                  "value": 1128
                 },
                 {
                   "name": "Surface.tsx",
@@ -3640,7 +3704,7 @@
         {
           "name": "node_modules",
           "fullPath": "node_modules",
-          "value": 402421,
+          "value": 402535,
           "children": [
             {
               "name": "@reduxjs",
@@ -4181,17 +4245,17 @@
             {
               "name": "immer",
               "fullPath": "node_modules/immer",
-              "value": 27717,
+              "value": 27831,
               "children": [
                 {
                   "name": "dist",
                   "fullPath": "node_modules/immer/dist",
-                  "value": 27717,
+                  "value": 27831,
                   "children": [
                     {
                       "name": "immer.mjs",
                       "fullPath": "node_modules/immer/dist/immer.mjs",
-                      "value": 27717
+                      "value": 27831
                     }
                   ]
                 }
