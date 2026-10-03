@@ -1,50 +1,50 @@
 {
   "treemap": {
     "examplePath": "www/src/views/IndexView/IndexLineChart.tsx",
-    "totalSize": 927895,
-    "totalSizeLabel": "906.15 KB",
+    "totalSize": 933422,
+    "totalSizeLabel": "911.54 KB",
     "moduleCount": 374,
-    "generatedAt": "2026-09-21T20:20:29.000Z",
+    "generatedAt": "2026-10-03T12:07:11.843Z",
     "stages": [
       {
         "stage": "es6-folder",
-        "bytes": 1417350,
-        "humanReadableSize": "1.35 MB",
+        "bytes": 1447568,
+        "humanReadableSize": "1.38 MB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "tree-shaken",
-        "bytes": 930790,
-        "humanReadableSize": "908.97 KB",
+        "bytes": 936317,
+        "humanReadableSize": "914.37 KB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "minified",
-        "bytes": 308193,
-        "humanReadableSize": "300.97 KB",
-        "reductionFromBaselinePercent": 66.89
+        "bytes": 309501,
+        "humanReadableSize": "302.25 KB",
+        "reductionFromBaselinePercent": 66.94
       },
       {
         "stage": "minified+gzip",
-        "bytes": 101071,
-        "humanReadableSize": "98.70 KB",
-        "reductionFromBaselinePercent": 89.14
+        "bytes": 101530,
+        "humanReadableSize": "99.15 KB",
+        "reductionFromBaselinePercent": 89.16
       }
     ],
     "tree": {
       "name": "bundle",
       "fullPath": "bundle",
-      "value": 927895,
+      "value": 933422,
       "children": [
         {
           "name": "src",
           "fullPath": "src",
-          "value": 524319,
+          "value": 529846,
           "children": [
             {
               "name": "state",
               "fullPath": "src/state",
-              "value": 183193,
+              "value": 183718,
               "children": [
                 {
                   "name": "selectors",
@@ -281,14 +281,14 @@
                   "value": 6357
                 },
                 {
+                  "name": "mouseEventsMiddleware.ts",
+                  "fullPath": "src/state/mouseEventsMiddleware.ts",
+                  "value": 4600
+                },
+                {
                   "name": "externalEventsMiddleware.ts",
                   "fullPath": "src/state/externalEventsMiddleware.ts",
                   "value": 4477
-                },
-                {
-                  "name": "mouseEventsMiddleware.ts",
-                  "fullPath": "src/state/mouseEventsMiddleware.ts",
-                  "value": 4075
                 },
                 {
                   "name": "touchEventsMiddleware.ts",
@@ -447,7 +447,7 @@
             {
               "name": "util",
               "fullPath": "src/util",
-              "value": 119349,
+              "value": 119657,
               "children": [
                 {
                   "name": "scale",
@@ -486,7 +486,7 @@
                 {
                   "name": "ChartUtils.ts",
                   "fullPath": "src/util/ChartUtils.ts",
-                  "value": 14790
+                  "value": 15098
                 },
                 {
                   "name": "zoom",
@@ -801,17 +801,17 @@
             {
               "name": "component",
               "fullPath": "src/component",
-              "value": 40388,
+              "value": 45082,
               "children": [
-                {
-                  "name": "Label.tsx",
-                  "fullPath": "src/component/Label.tsx",
-                  "value": 10478
-                },
                 {
                   "name": "Text.tsx",
                   "fullPath": "src/component/Text.tsx",
-                  "value": 9221
+                  "value": 13709
+                },
+                {
+                  "name": "Label.tsx",
+                  "fullPath": "src/component/Label.tsx",
+                  "value": 10684
                 },
                 {
                   "name": "Legend.tsx",
@@ -2597,50 +2597,50 @@
   },
   "sunburst": {
     "examplePath": "www/src/views/IndexView/IndexLineChart.tsx",
-    "totalSize": 927895,
-    "totalSizeLabel": "906.15 KB",
+    "totalSize": 933422,
+    "totalSizeLabel": "911.54 KB",
     "moduleCount": 374,
-    "generatedAt": "2026-09-21T20:20:27.021Z",
+    "generatedAt": "2026-10-03T12:07:10.128Z",
     "stages": [
       {
         "stage": "es6-folder",
-        "bytes": 1417350,
-        "humanReadableSize": "1.35 MB",
+        "bytes": 1447568,
+        "humanReadableSize": "1.38 MB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "tree-shaken",
-        "bytes": 930790,
-        "humanReadableSize": "908.97 KB",
+        "bytes": 936317,
+        "humanReadableSize": "914.37 KB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "minified",
-        "bytes": 308193,
-        "humanReadableSize": "300.97 KB",
-        "reductionFromBaselinePercent": 66.89
+        "bytes": 309501,
+        "humanReadableSize": "302.25 KB",
+        "reductionFromBaselinePercent": 66.94
       },
       {
         "stage": "minified+gzip",
-        "bytes": 101071,
-        "humanReadableSize": "98.70 KB",
-        "reductionFromBaselinePercent": 89.14
+        "bytes": 101530,
+        "humanReadableSize": "99.15 KB",
+        "reductionFromBaselinePercent": 89.16
       }
     ],
     "tree": {
       "name": "bundle",
       "fullPath": "bundle",
-      "value": 927895,
+      "value": 933422,
       "children": [
         {
           "name": "src",
           "fullPath": "src",
-          "value": 524319,
+          "value": 529846,
           "children": [
             {
               "name": "state",
               "fullPath": "src/state",
-              "value": 183193,
+              "value": 183718,
               "children": [
                 {
                   "name": "selectors",
@@ -2877,14 +2877,14 @@
                   "value": 6357
                 },
                 {
+                  "name": "mouseEventsMiddleware.ts",
+                  "fullPath": "src/state/mouseEventsMiddleware.ts",
+                  "value": 4600
+                },
+                {
                   "name": "externalEventsMiddleware.ts",
                   "fullPath": "src/state/externalEventsMiddleware.ts",
                   "value": 4477
-                },
-                {
-                  "name": "mouseEventsMiddleware.ts",
-                  "fullPath": "src/state/mouseEventsMiddleware.ts",
-                  "value": 4075
                 },
                 {
                   "name": "touchEventsMiddleware.ts",
@@ -3043,7 +3043,7 @@
             {
               "name": "util",
               "fullPath": "src/util",
-              "value": 119349,
+              "value": 119657,
               "children": [
                 {
                   "name": "scale",
@@ -3082,7 +3082,7 @@
                 {
                   "name": "ChartUtils.ts",
                   "fullPath": "src/util/ChartUtils.ts",
-                  "value": 14790
+                  "value": 15098
                 },
                 {
                   "name": "zoom",
@@ -3397,17 +3397,17 @@
             {
               "name": "component",
               "fullPath": "src/component",
-              "value": 40388,
+              "value": 45082,
               "children": [
-                {
-                  "name": "Label.tsx",
-                  "fullPath": "src/component/Label.tsx",
-                  "value": 10478
-                },
                 {
                   "name": "Text.tsx",
                   "fullPath": "src/component/Text.tsx",
-                  "value": 9221
+                  "value": 13709
+                },
+                {
+                  "name": "Label.tsx",
+                  "fullPath": "src/component/Label.tsx",
+                  "value": 10684
                 },
                 {
                   "name": "Legend.tsx",
