@@ -1,70 +1,70 @@
 {
   "treemap": {
     "examplePath": "www/src/views/IndexView/IndexLineChart.tsx",
-    "totalSize": 990945,
-    "totalSizeLabel": "967.72 KB",
-    "moduleCount": 383,
-    "generatedAt": "2026-10-29T15:09:09.937Z",
+    "totalSize": 1005665,
+    "totalSizeLabel": "982.09 KB",
+    "moduleCount": 385,
+    "generatedAt": "2026-11-03T01:09:33.855Z",
     "stages": [
       {
         "stage": "es6-folder",
-        "bytes": 1568455,
-        "humanReadableSize": "1.50 MB",
+        "bytes": 1638969,
+        "humanReadableSize": "1.56 MB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "tree-shaken",
-        "bytes": 993858,
-        "humanReadableSize": "970.56 KB",
+        "bytes": 1008588,
+        "humanReadableSize": "984.95 KB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "minified",
-        "bytes": 321881,
-        "humanReadableSize": "314.34 KB",
-        "reductionFromBaselinePercent": 67.61
+        "bytes": 325595,
+        "humanReadableSize": "317.96 KB",
+        "reductionFromBaselinePercent": 67.72
       },
       {
         "stage": "minified+gzip",
-        "bytes": 105545,
-        "humanReadableSize": "103.07 KB",
-        "reductionFromBaselinePercent": 89.38
+        "bytes": 106788,
+        "humanReadableSize": "104.29 KB",
+        "reductionFromBaselinePercent": 89.41
       }
     ],
     "tree": {
       "name": "bundle",
       "fullPath": "bundle",
-      "value": 990945,
+      "value": 1005665,
       "children": [
         {
           "name": "src",
           "fullPath": "src",
-          "value": 587369,
+          "value": 602089,
           "children": [
             {
               "name": "state",
               "fullPath": "src/state",
-              "value": 188785,
+              "value": 189264,
               "children": [
                 {
                   "name": "selectors",
                   "fullPath": "src/state/selectors",
-                  "value": 119084,
+                  "value": 119563,
                   "children": [
                     {
                       "name": "axisSelectors.ts",
                       "fullPath": "src/state/selectors/axisSelectors.ts",
-                      "value": 56072
+                      "value": 56525
                     },
                     {
                       "name": "combiners",
                       "fullPath": "src/state/selectors/combiners",
-                      "value": 21028,
+                      "value": 21054,
                       "children": [
                         {
                           "name": "combineTooltipPayload.ts",
                           "fullPath": "src/state/selectors/combiners/combineTooltipPayload.ts",
-                          "value": 6900
+                          "value": 6926
                         },
                         {
                           "name": "combineActiveTooltipIndex.ts",
@@ -452,7 +452,7 @@
             {
               "name": "util",
               "fullPath": "src/util",
-              "value": 120584,
+              "value": 120737,
               "children": [
                 {
                   "name": "scale",
@@ -491,7 +491,7 @@
                 {
                   "name": "ChartUtils.ts",
                   "fullPath": "src/util/ChartUtils.ts",
-                  "value": 15374
+                  "value": 15228
                 },
                 {
                   "name": "zoom",
@@ -571,14 +571,14 @@
                   "value": 2795
                 },
                 {
+                  "name": "ActiveShapeUtils.tsx",
+                  "fullPath": "src/util/ActiveShapeUtils.tsx",
+                  "value": 2432
+                },
+                {
                   "name": "DOMUtils.ts",
                   "fullPath": "src/util/DOMUtils.ts",
                   "value": 2400
-                },
-                {
-                  "name": "ActiveShapeUtils.tsx",
-                  "fullPath": "src/util/ActiveShapeUtils.tsx",
-                  "value": 2133
                 },
                 {
                   "name": "svgPropertiesAndEvents.ts",
@@ -739,22 +739,22 @@
             {
               "name": "cartesian",
               "fullPath": "src/cartesian",
-              "value": 90842,
+              "value": 92238,
               "children": [
                 {
                   "name": "Line.tsx",
                   "fullPath": "src/cartesian/Line.tsx",
-                  "value": 17896
+                  "value": 18078
+                },
+                {
+                  "name": "CartesianGrid.tsx",
+                  "fullPath": "src/cartesian/CartesianGrid.tsx",
+                  "value": 15621
                 },
                 {
                   "name": "CartesianAxis.tsx",
                   "fullPath": "src/cartesian/CartesianAxis.tsx",
                   "value": 15313
-                },
-                {
-                  "name": "CartesianGrid.tsx",
-                  "fullPath": "src/cartesian/CartesianGrid.tsx",
-                  "value": 14407
                 },
                 {
                   "name": "getCartesianPosition.tsx",
@@ -811,7 +811,7 @@
             {
               "name": "component",
               "fullPath": "src/component",
-              "value": 62610,
+              "value": 63950,
               "children": [
                 {
                   "name": "Text.tsx",
@@ -821,12 +821,12 @@
                 {
                   "name": "Label.tsx",
                   "fullPath": "src/component/Label.tsx",
-                  "value": 12582
+                  "value": 12772
                 },
                 {
                   "name": "DefaultLegendContent.tsx",
                   "fullPath": "src/component/DefaultLegendContent.tsx",
-                  "value": 8718
+                  "value": 9868
                 },
                 {
                   "name": "Legend.tsx",
@@ -915,7 +915,7 @@
             {
               "name": "theme",
               "fullPath": "src/theme",
-              "value": 23613,
+              "value": 26914,
               "children": [
                 {
                   "name": "labelTheme.ts",
@@ -925,7 +925,7 @@
                 {
                   "name": "dataEntryStyles.ts",
                   "fullPath": "src/theme/dataEntryStyles.ts",
-                  "value": 5120
+                  "value": 5674
                 },
                 {
                   "name": "activeStyles.ts",
@@ -933,14 +933,19 @@
                   "value": 4584
                 },
                 {
-                  "name": "useBackwardsCompatibleTheme.ts",
-                  "fullPath": "src/theme/useBackwardsCompatibleTheme.ts",
-                  "value": 1887
+                  "name": "themeFill.ts",
+                  "fullPath": "src/theme/themeFill.ts",
+                  "value": 2171
                 },
                 {
                   "name": "useGraphicalItemIdentity.ts",
                   "fullPath": "src/theme/useGraphicalItemIdentity.ts",
-                  "value": 1478
+                  "value": 2054
+                },
+                {
+                  "name": "useBackwardsCompatibleTheme.ts",
+                  "fullPath": "src/theme/useBackwardsCompatibleTheme.ts",
+                  "value": 1887
                 },
                 {
                   "name": "graphicalItemIdentity.ts",
@@ -994,12 +999,17 @@
             {
               "name": "shape",
               "fullPath": "src/shape",
-              "value": 12524,
+              "value": 14511,
               "children": [
                 {
                   "name": "Curve.tsx",
                   "fullPath": "src/shape/Curve.tsx",
-                  "value": 4586
+                  "value": 5102
+                },
+                {
+                  "name": "Symbols.tsx",
+                  "fullPath": "src/shape/Symbols.tsx",
+                  "value": 4629
                 },
                 {
                   "name": "DotSymbol.tsx",
@@ -1007,14 +1017,9 @@
                   "value": 3636
                 },
                 {
-                  "name": "Symbols.tsx",
-                  "fullPath": "src/shape/Symbols.tsx",
-                  "value": 3635
-                },
-                {
                   "name": "Dot.tsx",
                   "fullPath": "src/shape/Dot.tsx",
-                  "value": 667
+                  "value": 1144
                 }
               ]
             },
@@ -1111,6 +1116,18 @@
                   "name": "useChartSynchronisation.tsx",
                   "fullPath": "src/synchronisation/useChartSynchronisation.tsx",
                   "value": 9161
+                }
+              ]
+            },
+            {
+              "name": "fill",
+              "fullPath": "src/fill",
+              "value": 6064,
+              "children": [
+                {
+                  "name": "fillDefinitions.tsx",
+                  "fullPath": "src/fill/fillDefinitions.tsx",
+                  "value": 6064
                 }
               ]
             },
@@ -2642,70 +2659,70 @@
   },
   "sunburst": {
     "examplePath": "www/src/views/IndexView/IndexLineChart.tsx",
-    "totalSize": 990945,
-    "totalSizeLabel": "967.72 KB",
-    "moduleCount": 383,
-    "generatedAt": "2026-10-29T15:09:07.710Z",
+    "totalSize": 1005665,
+    "totalSizeLabel": "982.09 KB",
+    "moduleCount": 385,
+    "generatedAt": "2026-11-03T01:09:31.677Z",
     "stages": [
       {
         "stage": "es6-folder",
-        "bytes": 1568455,
-        "humanReadableSize": "1.50 MB",
+        "bytes": 1638969,
+        "humanReadableSize": "1.56 MB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "tree-shaken",
-        "bytes": 993858,
-        "humanReadableSize": "970.56 KB",
+        "bytes": 1008588,
+        "humanReadableSize": "984.95 KB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "minified",
-        "bytes": 321881,
-        "humanReadableSize": "314.34 KB",
-        "reductionFromBaselinePercent": 67.61
+        "bytes": 325595,
+        "humanReadableSize": "317.96 KB",
+        "reductionFromBaselinePercent": 67.72
       },
       {
         "stage": "minified+gzip",
-        "bytes": 105545,
-        "humanReadableSize": "103.07 KB",
-        "reductionFromBaselinePercent": 89.38
+        "bytes": 106788,
+        "humanReadableSize": "104.29 KB",
+        "reductionFromBaselinePercent": 89.41
       }
     ],
     "tree": {
       "name": "bundle",
       "fullPath": "bundle",
-      "value": 990945,
+      "value": 1005665,
       "children": [
         {
           "name": "src",
           "fullPath": "src",
-          "value": 587369,
+          "value": 602089,
           "children": [
             {
               "name": "state",
               "fullPath": "src/state",
-              "value": 188785,
+              "value": 189264,
               "children": [
                 {
                   "name": "selectors",
                   "fullPath": "src/state/selectors",
-                  "value": 119084,
+                  "value": 119563,
                   "children": [
                     {
                       "name": "axisSelectors.ts",
                       "fullPath": "src/state/selectors/axisSelectors.ts",
-                      "value": 56072
+                      "value": 56525
                     },
                     {
                       "name": "combiners",
                       "fullPath": "src/state/selectors/combiners",
-                      "value": 21028,
+                      "value": 21054,
                       "children": [
                         {
                           "name": "combineTooltipPayload.ts",
                           "fullPath": "src/state/selectors/combiners/combineTooltipPayload.ts",
-                          "value": 6900
+                          "value": 6926
                         },
                         {
                           "name": "combineActiveTooltipIndex.ts",
@@ -3093,7 +3110,7 @@
             {
               "name": "util",
               "fullPath": "src/util",
-              "value": 120584,
+              "value": 120737,
               "children": [
                 {
                   "name": "scale",
@@ -3132,7 +3149,7 @@
                 {
                   "name": "ChartUtils.ts",
                   "fullPath": "src/util/ChartUtils.ts",
-                  "value": 15374
+                  "value": 15228
                 },
                 {
                   "name": "zoom",
@@ -3212,14 +3229,14 @@
                   "value": 2795
                 },
                 {
+                  "name": "ActiveShapeUtils.tsx",
+                  "fullPath": "src/util/ActiveShapeUtils.tsx",
+                  "value": 2432
+                },
+                {
                   "name": "DOMUtils.ts",
                   "fullPath": "src/util/DOMUtils.ts",
                   "value": 2400
-                },
-                {
-                  "name": "ActiveShapeUtils.tsx",
-                  "fullPath": "src/util/ActiveShapeUtils.tsx",
-                  "value": 2133
                 },
                 {
                   "name": "svgPropertiesAndEvents.ts",
@@ -3380,22 +3397,22 @@
             {
               "name": "cartesian",
               "fullPath": "src/cartesian",
-              "value": 90842,
+              "value": 92238,
               "children": [
                 {
                   "name": "Line.tsx",
                   "fullPath": "src/cartesian/Line.tsx",
-                  "value": 17896
+                  "value": 18078
+                },
+                {
+                  "name": "CartesianGrid.tsx",
+                  "fullPath": "src/cartesian/CartesianGrid.tsx",
+                  "value": 15621
                 },
                 {
                   "name": "CartesianAxis.tsx",
                   "fullPath": "src/cartesian/CartesianAxis.tsx",
                   "value": 15313
-                },
-                {
-                  "name": "CartesianGrid.tsx",
-                  "fullPath": "src/cartesian/CartesianGrid.tsx",
-                  "value": 14407
                 },
                 {
                   "name": "getCartesianPosition.tsx",
@@ -3452,7 +3469,7 @@
             {
               "name": "component",
               "fullPath": "src/component",
-              "value": 62610,
+              "value": 63950,
               "children": [
                 {
                   "name": "Text.tsx",
@@ -3462,12 +3479,12 @@
                 {
                   "name": "Label.tsx",
                   "fullPath": "src/component/Label.tsx",
-                  "value": 12582
+                  "value": 12772
                 },
                 {
                   "name": "DefaultLegendContent.tsx",
                   "fullPath": "src/component/DefaultLegendContent.tsx",
-                  "value": 8718
+                  "value": 9868
                 },
                 {
                   "name": "Legend.tsx",
@@ -3556,7 +3573,7 @@
             {
               "name": "theme",
               "fullPath": "src/theme",
-              "value": 23613,
+              "value": 26914,
               "children": [
                 {
                   "name": "labelTheme.ts",
@@ -3566,7 +3583,7 @@
                 {
                   "name": "dataEntryStyles.ts",
                   "fullPath": "src/theme/dataEntryStyles.ts",
-                  "value": 5120
+                  "value": 5674
                 },
                 {
                   "name": "activeStyles.ts",
@@ -3574,14 +3591,19 @@
                   "value": 4584
                 },
                 {
-                  "name": "useBackwardsCompatibleTheme.ts",
-                  "fullPath": "src/theme/useBackwardsCompatibleTheme.ts",
-                  "value": 1887
+                  "name": "themeFill.ts",
+                  "fullPath": "src/theme/themeFill.ts",
+                  "value": 2171
                 },
                 {
                   "name": "useGraphicalItemIdentity.ts",
                   "fullPath": "src/theme/useGraphicalItemIdentity.ts",
-                  "value": 1478
+                  "value": 2054
+                },
+                {
+                  "name": "useBackwardsCompatibleTheme.ts",
+                  "fullPath": "src/theme/useBackwardsCompatibleTheme.ts",
+                  "value": 1887
                 },
                 {
                   "name": "graphicalItemIdentity.ts",
@@ -3635,12 +3657,17 @@
             {
               "name": "shape",
               "fullPath": "src/shape",
-              "value": 12524,
+              "value": 14511,
               "children": [
                 {
                   "name": "Curve.tsx",
                   "fullPath": "src/shape/Curve.tsx",
-                  "value": 4586
+                  "value": 5102
+                },
+                {
+                  "name": "Symbols.tsx",
+                  "fullPath": "src/shape/Symbols.tsx",
+                  "value": 4629
                 },
                 {
                   "name": "DotSymbol.tsx",
@@ -3648,14 +3675,9 @@
                   "value": 3636
                 },
                 {
-                  "name": "Symbols.tsx",
-                  "fullPath": "src/shape/Symbols.tsx",
-                  "value": 3635
-                },
-                {
                   "name": "Dot.tsx",
                   "fullPath": "src/shape/Dot.tsx",
-                  "value": 667
+                  "value": 1144
                 }
               ]
             },
@@ -3752,6 +3774,18 @@
                   "name": "useChartSynchronisation.tsx",
                   "fullPath": "src/synchronisation/useChartSynchronisation.tsx",
                   "value": 9161
+                }
+              ]
+            },
+            {
+              "name": "fill",
+              "fullPath": "src/fill",
+              "value": 6064,
+              "children": [
+                {
+                  "name": "fillDefinitions.tsx",
+                  "fullPath": "src/fill/fillDefinitions.tsx",
+                  "value": 6064
                 }
               ]
             },
