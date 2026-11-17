@@ -1,60 +1,60 @@
 {
   "treemap": {
     "examplePath": "www/src/views/IndexView/IndexLineChart.tsx",
-    "totalSize": 1012021,
-    "totalSizeLabel": "988.30 KB",
+    "totalSize": 1014092,
+    "totalSizeLabel": "990.32 KB",
     "moduleCount": 386,
-    "generatedAt": "2026-11-17T18:48:47.474Z",
+    "generatedAt": "2026-11-17T21:13:18.845Z",
     "stages": [
       {
         "stage": "es6-folder",
-        "bytes": 1662785,
+        "bytes": 1666421,
         "humanReadableSize": "1.59 MB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "tree-shaken",
-        "bytes": 1014946,
-        "humanReadableSize": "991.16 KB",
+        "bytes": 1017017,
+        "humanReadableSize": "993.18 KB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "minified",
-        "bytes": 326668,
-        "humanReadableSize": "319.01 KB",
-        "reductionFromBaselinePercent": 67.81
+        "bytes": 326702,
+        "humanReadableSize": "319.04 KB",
+        "reductionFromBaselinePercent": 67.88
       },
       {
         "stage": "minified+gzip",
-        "bytes": 107075,
-        "humanReadableSize": "104.57 KB",
-        "reductionFromBaselinePercent": 89.45
+        "bytes": 107087,
+        "humanReadableSize": "104.58 KB",
+        "reductionFromBaselinePercent": 89.47
       }
     ],
     "tree": {
       "name": "bundle",
       "fullPath": "bundle",
-      "value": 1012021,
+      "value": 1014092,
       "children": [
         {
           "name": "src",
           "fullPath": "src",
-          "value": 607703,
+          "value": 609774,
           "children": [
             {
               "name": "state",
               "fullPath": "src/state",
-              "value": 191206,
+              "value": 193873,
               "children": [
                 {
                   "name": "selectors",
                   "fullPath": "src/state/selectors",
-                  "value": 121372,
+                  "value": 121707,
                   "children": [
                     {
                       "name": "axisSelectors.ts",
                       "fullPath": "src/state/selectors/axisSelectors.ts",
-                      "value": 58257
+                      "value": 58594
                     },
                     {
                       "name": "combiners",
@@ -151,7 +151,7 @@
                     {
                       "name": "dataSelectors.ts",
                       "fullPath": "src/state/selectors/dataSelectors.ts",
-                      "value": 2856
+                      "value": 2854
                     },
                     {
                       "name": "lineSelectors.ts",
@@ -278,7 +278,7 @@
                 {
                   "name": "keyboardEventsMiddleware.ts",
                   "fullPath": "src/state/keyboardEventsMiddleware.ts",
-                  "value": 6661
+                  "value": 6631
                 },
                 {
                   "name": "cartesianAxisSlice.ts",
@@ -288,17 +288,22 @@
                 {
                   "name": "mouseEventsMiddleware.ts",
                   "fullPath": "src/state/mouseEventsMiddleware.ts",
-                  "value": 4600
+                  "value": 5225
                 },
                 {
                   "name": "externalEventsMiddleware.ts",
                   "fullPath": "src/state/externalEventsMiddleware.ts",
-                  "value": 4477
+                  "value": 5218
                 },
                 {
                   "name": "touchEventsMiddleware.ts",
                   "fullPath": "src/state/touchEventsMiddleware.ts",
-                  "value": 3800
+                  "value": 4468
+                },
+                {
+                  "name": "store.ts",
+                  "fullPath": "src/state/store.ts",
+                  "value": 3366
                 },
                 {
                   "name": "zIndexSlice.ts",
@@ -309,11 +314,6 @@
                   "name": "chartDataSlice.ts",
                   "fullPath": "src/state/chartDataSlice.ts",
                   "value": 3195
-                },
-                {
-                  "name": "store.ts",
-                  "fullPath": "src/state/store.ts",
-                  "value": 3038
                 },
                 {
                   "name": "graphicalItemsSlice.ts",
@@ -452,7 +452,7 @@
             {
               "name": "util",
               "fullPath": "src/util",
-              "value": 121092,
+              "value": 120167,
               "children": [
                 {
                   "name": "scale",
@@ -491,7 +491,7 @@
                 {
                   "name": "ChartUtils.ts",
                   "fullPath": "src/util/ChartUtils.ts",
-                  "value": 15365
+                  "value": 14440
                 },
                 {
                   "name": "zoom",
@@ -811,7 +811,7 @@
             {
               "name": "component",
               "fullPath": "src/component",
-              "value": 66206,
+              "value": 66535,
               "children": [
                 {
                   "name": "Text.tsx",
@@ -821,7 +821,7 @@
                 {
                   "name": "Label.tsx",
                   "fullPath": "src/component/Label.tsx",
-                  "value": 12783
+                  "value": 12798
                 },
                 {
                   "name": "DefaultLegendContent.tsx",
@@ -839,14 +839,14 @@
                   "value": 7562
                 },
                 {
+                  "name": "ActivePoints.tsx",
+                  "fullPath": "src/component/ActivePoints.tsx",
+                  "value": 2673
+                },
+                {
                   "name": "Dots.tsx",
                   "fullPath": "src/component/Dots.tsx",
                   "value": 2472
-                },
-                {
-                  "name": "ActivePoints.tsx",
-                  "fullPath": "src/component/ActivePoints.tsx",
-                  "value": 2359
                 },
                 {
                   "name": "ResponsiveContainer.tsx",
@@ -2664,60 +2664,60 @@
   },
   "sunburst": {
     "examplePath": "www/src/views/IndexView/IndexLineChart.tsx",
-    "totalSize": 1012021,
-    "totalSizeLabel": "988.30 KB",
+    "totalSize": 1014092,
+    "totalSizeLabel": "990.32 KB",
     "moduleCount": 386,
-    "generatedAt": "2026-11-17T18:48:49.433Z",
+    "generatedAt": "2026-11-17T21:13:16.922Z",
     "stages": [
       {
         "stage": "es6-folder",
-        "bytes": 1662785,
+        "bytes": 1666421,
         "humanReadableSize": "1.59 MB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "tree-shaken",
-        "bytes": 1014946,
-        "humanReadableSize": "991.16 KB",
+        "bytes": 1017017,
+        "humanReadableSize": "993.18 KB",
         "reductionFromBaselinePercent": 0
       },
       {
         "stage": "minified",
-        "bytes": 326668,
-        "humanReadableSize": "319.01 KB",
-        "reductionFromBaselinePercent": 67.81
+        "bytes": 326702,
+        "humanReadableSize": "319.04 KB",
+        "reductionFromBaselinePercent": 67.88
       },
       {
         "stage": "minified+gzip",
-        "bytes": 107075,
-        "humanReadableSize": "104.57 KB",
-        "reductionFromBaselinePercent": 89.45
+        "bytes": 107087,
+        "humanReadableSize": "104.58 KB",
+        "reductionFromBaselinePercent": 89.47
       }
     ],
     "tree": {
       "name": "bundle",
       "fullPath": "bundle",
-      "value": 1012021,
+      "value": 1014092,
       "children": [
         {
           "name": "src",
           "fullPath": "src",
-          "value": 607703,
+          "value": 609774,
           "children": [
             {
               "name": "state",
               "fullPath": "src/state",
-              "value": 191206,
+              "value": 193873,
               "children": [
                 {
                   "name": "selectors",
                   "fullPath": "src/state/selectors",
-                  "value": 121372,
+                  "value": 121707,
                   "children": [
                     {
                       "name": "axisSelectors.ts",
                       "fullPath": "src/state/selectors/axisSelectors.ts",
-                      "value": 58257
+                      "value": 58594
                     },
                     {
                       "name": "combiners",
@@ -2814,7 +2814,7 @@
                     {
                       "name": "dataSelectors.ts",
                       "fullPath": "src/state/selectors/dataSelectors.ts",
-                      "value": 2856
+                      "value": 2854
                     },
                     {
                       "name": "lineSelectors.ts",
@@ -2941,7 +2941,7 @@
                 {
                   "name": "keyboardEventsMiddleware.ts",
                   "fullPath": "src/state/keyboardEventsMiddleware.ts",
-                  "value": 6661
+                  "value": 6631
                 },
                 {
                   "name": "cartesianAxisSlice.ts",
@@ -2951,17 +2951,22 @@
                 {
                   "name": "mouseEventsMiddleware.ts",
                   "fullPath": "src/state/mouseEventsMiddleware.ts",
-                  "value": 4600
+                  "value": 5225
                 },
                 {
                   "name": "externalEventsMiddleware.ts",
                   "fullPath": "src/state/externalEventsMiddleware.ts",
-                  "value": 4477
+                  "value": 5218
                 },
                 {
                   "name": "touchEventsMiddleware.ts",
                   "fullPath": "src/state/touchEventsMiddleware.ts",
-                  "value": 3800
+                  "value": 4468
+                },
+                {
+                  "name": "store.ts",
+                  "fullPath": "src/state/store.ts",
+                  "value": 3366
                 },
                 {
                   "name": "zIndexSlice.ts",
@@ -2972,11 +2977,6 @@
                   "name": "chartDataSlice.ts",
                   "fullPath": "src/state/chartDataSlice.ts",
                   "value": 3195
-                },
-                {
-                  "name": "store.ts",
-                  "fullPath": "src/state/store.ts",
-                  "value": 3038
                 },
                 {
                   "name": "graphicalItemsSlice.ts",
@@ -3115,7 +3115,7 @@
             {
               "name": "util",
               "fullPath": "src/util",
-              "value": 121092,
+              "value": 120167,
               "children": [
                 {
                   "name": "scale",
@@ -3154,7 +3154,7 @@
                 {
                   "name": "ChartUtils.ts",
                   "fullPath": "src/util/ChartUtils.ts",
-                  "value": 15365
+                  "value": 14440
                 },
                 {
                   "name": "zoom",
@@ -3474,7 +3474,7 @@
             {
               "name": "component",
               "fullPath": "src/component",
-              "value": 66206,
+              "value": 66535,
               "children": [
                 {
                   "name": "Text.tsx",
@@ -3484,7 +3484,7 @@
                 {
                   "name": "Label.tsx",
                   "fullPath": "src/component/Label.tsx",
-                  "value": 12783
+                  "value": 12798
                 },
                 {
                   "name": "DefaultLegendContent.tsx",
@@ -3502,14 +3502,14 @@
                   "value": 7562
                 },
                 {
+                  "name": "ActivePoints.tsx",
+                  "fullPath": "src/component/ActivePoints.tsx",
+                  "value": 2673
+                },
+                {
                   "name": "Dots.tsx",
                   "fullPath": "src/component/Dots.tsx",
                   "value": 2472
-                },
-                {
-                  "name": "ActivePoints.tsx",
-                  "fullPath": "src/component/ActivePoints.tsx",
-                  "value": 2359
                 },
                 {
                   "name": "ResponsiveContainer.tsx",
